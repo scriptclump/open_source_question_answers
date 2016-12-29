@@ -1,22 +1,22 @@
-=> What is WordPress?
-	Word press is a best Open Source CMS which allows it to be used free of cost.  You can use it on any kind of personal or commercial website without have to pay a single penny for it. It is built on PHP/MySQL (which is again Open Source) and licensed under GPL.
+**What is WordPress?**
+Word press is a best Open Source CMS which allows it to be used free of cost.  You can use it on any kind of personal or commercial website without have to pay a single penny for it. It is built on PHP/MySQL (which is again Open Source) and licensed under GPL.
 
-=> How safe is website on WordPress?
-	The word press is safe to operate but still it is suggested to keep updating with the latest version of WordPress to avoid hacking.
+**How safe is website on WordPress?**
+The word press is safe to operate but still it is suggested to keep updating with the latest version of WordPress to avoid hacking.
 
-=> Are there any limitations to a WordPress web site?
-	You can use WordPress for e-commerce sites, membership sites, photo galleries and any other type of site you can think of. The web site is created using the same html code as any other site so there are no limitations there either.
+**Are there any limitations to a WordPress web site?**
+You can use WordPress for e-commerce sites, membership sites, photo galleries and any other type of site you can think of. The web site is created using the same html code as any other site so there are no limitations there either.
 
-=> Do you need to have a blog in order to use WordPress for site?
-	WordPress was originally used as blogging software though it has since become popular for website also.  It is not necessary to have a blog to use WordPress.  Still having blog is commendable as it will help in search engine optimization.
+**Do you need to have a blog in order to use WordPress for site?**
+WordPress was originally used as blogging software though it has since become popular for website also.  It is not necessary to have a blog to use WordPress.  Still having blog is commendable as it will help in search engine optimization.
 
-=> From SEO point of view is WordPress helpful? Will it show the website on Google?
-	It is one of the benefit of using WordPress, it has inbuilt SEO search engine. Also, you can have an additional plug-in in WordPress to help with SEO and rank on a popular search engine like Google.
+**From SEO point of view is WordPress helpful? Will it show the website on Google?**
+It is one of the benefit of using WordPress, it has inbuilt SEO search engine. Also, you can have an additional plug-in in WordPress to help with SEO and rank on a popular search engine like Google.
 
-=> What is the current version of WordPress?
+**What is the current version of WordPress?**
 	You need to quote the current version of WordPress available in market along with the release date.
 
-=> What are the types of hooks in WordPress and mention their functions?
+**What are the types of hooks in WordPress and mention their functions?**
 	There are two types of hooks 1) Action hooks 2) Filter hooks
 	Hooks allow user to create WordPress theme or plugin with shortcode without changing the original files. Action hooks allow you to insert an additional code from an outside resource, whereas, Filter hooks will only allow you to add a content or text at the end of the post.
 
