@@ -20,11 +20,13 @@ It is one of the benefit of using WordPress, it has inbuilt SEO search engine. A
 	There are two types of hooks 1) Action hooks 2) Filter hooks
 	Hooks allow user to create WordPress theme or plugin with shortcode without changing the original files. Action hooks allow you to insert an additional code from an outside resource, whereas, Filter hooks will only allow you to add a content or text at the end of the post.
 
-=> What do you mean by custom field in WordPress?
-	Custom field is a meta-data that allows you to store arbitrary information to the WordPress post. Through custom field extra information can be added to the post.
+**What do you mean by custom field in WordPress?**
 
-=> What are the positive aspects of WordPress?
-	Few positive aspects of WordPress are
+Custom field is a meta-data that allows you to store arbitrary information to the WordPress post. Through custom field extra information can be added to the post.
+
+**What are the positive aspects of WordPress?**
+
+Few positive aspects of WordPress are
 	•	Easy installation and upgrade
 	•	In-built SEO engine
 	•	Easy theme system
@@ -33,8 +35,9 @@ It is one of the benefit of using WordPress, it has inbuilt SEO search engine. A
 	•	Own data- no unwanted advert on your website
 	•	Flexibility and Easy publishing option
 
-=> What are the rules that you have to follow for WordPress plugin development?
-	•	Create a unique name
+**What are the rules that you have to follow for WordPress plugin development?**
+
+•	Create a unique name
 	•	Create the plugin’s folder
 	•	Create a sub-folder for PHP files,  translations and assets
 	•	Create the main plug-in file and fill in header information
@@ -43,109 +46,140 @@ It is one of the benefit of using WordPress, it has inbuilt SEO search engine. A
 	•	Create a readme.txt file
 	•	To detect paths to plugin file use proper constants and functions
 
-=> What is the prefix of WordPress tables by default?
-	By default, wp_ is the prefix for WordPress.
+**What is the prefix of WordPress tables by default?**
 
-=> Why does WordPress use MySQL?
-	MySQL is widely available database server and is extremely fast.  It is an open source and it is available at no cost also it is supported by many low-cost Linux hosts so it’s easy for anyone to host their website.
+By default, wp_ is the prefix for WordPress.
 
-=> Is it possible to rename the WordPress folder?
-	Yes, it is possible to rename the WordPress folder.  If WordPress is already installed you have to login to the weblog as the administrator and then change the settings
+**Why does WordPress use MySQL?**
+
+MySQL is widely available database server and is extremely fast.  It is an open source and it is available at no cost also it is supported by many low-cost Linux hosts so it’s easy for anyone to host their website.
+
+**Is it possible to rename the WordPress folder?**
+
+Yes, it is possible to rename the WordPress folder.  If WordPress is already installed you have to login to the weblog as the administrator and then change the settings
 	WordPress address (URI)  :
 	Blog address( URI) :
 	After making the changes, you can rename the folder or directory with the WordPress file in it.
 
-=> How many tables are there in WordPress by default?
-	There are about 11 tables in WordPress by default. Note: With succeeding releases of WordPress this number will change. You need to check phpMyAdmin to determine the number of tables in a vanilla version of latest WordPress installation.
+**How many tables are there in WordPress by default?**
 
-=> What is WordPress loop?
-	To display post WordPress use PHP code, this code is known as loop.
+There are about 11 tables in WordPress by default. Note: With succeeding releases of WordPress this number will change. You need to check phpMyAdmin to determine the number of tables in a vanilla version of latest WordPress installation.
 
-=> How you can disable the WordPress comment?
-	If you go on dashboard under options-discussion there is a comment “Allow people to post comment” try unchecking the comment.
+**What is WordPress loop?**
 
-=> What are the steps you can take if your WordPress file is hacked?
-	•	Install security plug-ins like WP security
+To display post WordPress use PHP code, this code is known as loop.
+
+**How you can disable the WordPress comment?**
+
+If you go on dashboard under options-discussion there is a comment “Allow people to post comment” try unchecking the comment.
+
+**What are the steps you can take if your WordPress file is hacked?**
+
+•	Install security plug-ins like WP security
 	•	Re-install the latest version of WordPress
 	•	Change password and user-ids for all your users
 	•	Check your themes and plug-ins are up to date
 
-=> What are the template tags in WordPress?
-	In WordPress template tags is a code that instructs WordPress to “do” or “get” something.
+**What are the template tags in WordPress?**
 
-=> Does WordPress have cookies?
-	Yes, WordPress have cookies and WordPress uses cookies for verification of users while logged in.
+In WordPress template tags is a code that instructs WordPress to “do” or “get” something.
 
-=> In what case you don’t see plugin menu?
-	You can’t see your plugin menu when the blog is hosted on free WordPress.com as you cannot add plugin there.  Also, if you do not have an account of an administrator level on your WordPress is not possible to see plugin.
+**Does WordPress have cookies?**
 
-=> At what instance you get locked out of your WordPress admin and see your website as a blank screen?
-	This would likely happen when you have pasted a code from a website with wrong formats, also when you have pasted a code in a wrong location. It may also happen when your IP is banned
+Yes, WordPress have cookies and WordPress uses cookies for verification of users while logged in.
 
-=> Why you use a static front page in WordPress?
-	Some WordPress users wants their WordPress installation to be more than a blog site. To give their page a look more like a real website page some users use static front page.
+**In what case you don’t see plugin menu?**
 
-=> What are the plugins you can use to create contact form in WordPress?
-	To create a contact form in WordPress you can use plugin like Gravity forms or also you can use a free plugin contact form 7.
+You can’t see your plugin menu when the blog is hosted on free WordPress.com as you cannot add plugin there.  Also, if you do not have an account of an administrator level on your WordPress is not possible to see plugin.
 
-=> Why widget does not show up in the sidebar?
-	While using widget you have to ensure whether your theme supports the widget and if it does then it must show the sidebar.  If in any case if it happens that you don’t see the sidebar then it might be missing the “function.php” file or file similar to that.  This can also happen if you have forgot to save the changes in the widget or refreshing the older display of the page.
-=> Is there any limitation for using WordPress?
-	No, there is no limitation for using WordPress.  WordPress can be used for innumerable purpose membership site, e-commerce site, photo-gallery and many more.
+**At what instance you get locked out of your WordPress admin and see your website as a blank screen?**
 
-=> How is creating a site on WordPress.org different from WordPress.com?
-	Most of the things are similar in both except the choices of themes and the usage of plugins.
+This would likely happen when you have pasted a code from a website with wrong formats, also when you have pasted a code in a wrong location. It may also happen when your IP is banned
 
-=> Why WordPress.com is considered more secure than WordPress.org?
-	WordPress.com is considered more secure than WordPress.org because they limit the themes and also does not allow installing plugin’s.  However the security is more dependable on how the hosting company is hosting your website(WordPress.org) & also what are the steps they are taking to prevent the security problems.
+**Why you use a static front page in WordPress?**
 
-=> Does de-activated plugins slow down a WordPress site?
-	No, de-activated plugins cannot slow down the WordPress site.  WordPress only loads the active plugins and ignores everything else.
+Some WordPress users wants their WordPress installation to be more than a blog site. To give their page a look more like a real website page some users use static front page.
 
-=> In what case we cannot recommend WordPress to our client?
-	We cannot recommend WordPress on following situation:
+**What are the plugins you can use to create contact form in WordPress?**
+
+To create a contact form in WordPress you can use plugin like Gravity forms or also you can use a free plugin contact form 7.
+
+**Why widget does not show up in the sidebar?**
+
+While using widget you have to ensure whether your theme supports the widget and if it does then it must show the sidebar.  If in any case if it happens that you don’t see the sidebar then it might be missing the “function.php” file or file similar to that.  This can also happen if you have forgot to save the changes in the widget or refreshing the older display of the page.
+**Is there any limitation for using WordPress?**
+
+No, there is no limitation for using WordPress.  WordPress can be used for innumerable purpose membership site, e-commerce site, photo-gallery and many more.
+
+**How is creating a site on WordPress.org different from WordPress.com?**
+
+Most of the things are similar in both except the choices of themes and the usage of plugins.
+
+**Why WordPress.com is considered more secure than WordPress.org?**
+
+WordPress.com is considered more secure than WordPress.org because they limit the themes and also does not allow installing plugin’s.  However the security is more dependable on how the hosting company is hosting your website(WordPress.org) & also what are the steps they are taking to prevent the security problems.
+
+**Does de-activated plugins slow down a WordPress site?**
+
+No, de-activated plugins cannot slow down the WordPress site.  WordPress only loads the active plugins and ignores everything else.
+
+**In what case we cannot recommend WordPress to our client?**
+
+We cannot recommend WordPress on following situation:
 	•	If client is working on non-CMS base project
 	•	If site wants complex or innovative e-commerce
 	•	In case of enterprise intranet solution
 	•	Sites requiring custom scripting solutions.
 
-=> What are the essential features you look for a theme?
-	Theme selection differs according to the requirement, but an ideal theme would be something that would not restrict to use the number of pages, plugins or static homepage.
+**What are the essential features you look for a theme?**
 
-=> How Custom theme is different than Normal theme?
-	Custom theme allows for SEO search, but with a SEO plugin available it would not make much difference to normal theme. One benefit using the Custom theme is that it allows to make the changes without going much into the coding part.
+Theme selection differs according to the requirement, but an ideal theme would be something that would not restrict to use the number of pages, plugins or static homepage.
 
-=> How you can create a static page with WordPress?
-	To create a static page in WordPress, in the page section  you have to upload a php files to the server in the theme folder, and then select that as your template.  This allows you to add any page and look that you wanted for your blog and it will remain static.
+**How Custom theme is different than Normal theme?**
 
-=> Is there any other CMS better WordPress?
-	WordPress is no doubt a good CMS, but Drupal and Joomla are among the best CMS you can work with.
+Custom theme allows for SEO search, but with a SEO plugin available it would not make much difference to normal theme. One benefit using the Custom theme is that it allows to make the changes without going much into the coding part.
 
-=> Which is the best multi-lingual plugin for WordPress?
-	Keeping all the limitations in mind, WPML would be the best multi-lingual plugin for WordPress .
+**How you can create a static page with WordPress?**
 
-=> Can you update your own content on the site?
-	It depends on the type of the site or project, but yes one can update their own content on the site.
+To create a static page in WordPress, in the page section  you have to upload a php files to the server in the theme folder, and then select that as your template.  This allows you to add any page and look that you wanted for your blog and it will remain static.
 
-=> What are meta-tags?
-	Meta-tags are keywords and description used to display website or page information.
+**Is there any other CMS better WordPress?**
 
-=> What should one use for plugin development — custom post types or custom database tables?
-	There is no specific preference for plugin development; it depends on what type of plugin’s one has to develop. Though few recommend custom post type, as it has few benefits comparison to custom database table.
+WordPress is no doubt a good CMS, but Drupal and Joomla are among the best CMS you can work with.
 
-=> Can you host WordPress using  Amazon web services such as EC2, RDS, EBS etc?
-	Yes, you can host using Amazon web services.
+**Which is the best multi-lingual plugin for WordPress?**
 
-=> Is there any way to write series in WordPress?
-	You can use organize series plugin to write series in WordPress.
+Keeping all the limitations in mind, WPML would be the best multi-lingual plugin for WordPress .
 
-=> What are the reasons why one should not hack WordPress core file?
-	The best reason not to hack the core files is that whatever you might be doing has to be reworked as a patch.
+**Can you update your own content on the site?**
+
+It depends on the type of the site or project, but yes one can update their own content on the site.
+
+**What are meta-tags?**
+
+Meta-tags are keywords and description used to display website or page information.
+
+**What should one use for plugin development — custom post types or custom database tables?**
+
+There is no specific preference for plugin development; it depends on what type of plugin’s one has to develop. Though few recommend custom post type, as it has few benefits comparison to custom database table.
+
+**Can you host WordPress using  Amazon web services such as EC2, RDS, EBS etc?**
+
+Yes, you can host using Amazon web services.
+
+**Is there any way to write series in WordPress?**
+
+You can use organize series plugin to write series in WordPress.
+
+**What are the reasons why one should not hack WordPress core file?**
+
+The best reason not to hack the core files is that whatever you might be doing has to be reworked as a patch.
 
 ===========================================================================
 ===========================================================================
-=> Consider the following code snippet. Briefly explain what changes it will achieve, who can and cannot view its effects, and at what URL WordPress will make it available.
-add_action('admin_menu', 'custom_menu');
+**Consider the following code snippet. Briefly explain what changes it will achieve, who can and cannot view its effects, and at what URL WordPress will make it available.**
+
+dd_action('admin_menu', 'custom_menu');
 function custom_menu(){
     add_menu_page('Custom Menu', 'Custom Menu', 'manage_options', 'custom-menu-slug', 'custom_menu_page_display');
 }
@@ -160,8 +194,9 @@ function custom_menu_page_display(){
 
 	The admin custom page will be made available at this (relative) URL: “?page=custom-menu-slug”.
 
-=> How would you change all the occurrences of “Hello” into “Good Morning” in post/page contents, when viewed before 11AM?
-	In a plugin or in theme functions file, we must create a function that takes text as input, changes it as needed, and returns it. This function must be added as a filter for “the_content”.
+**How would you change all the occurrences of “Hello” into “Good Morning” in post/page contents, when viewed before 11AM?**
+
+In a plugin or in theme functions file, we must create a function that takes text as input, changes it as needed, and returns it. This function must be added as a filter for “the_content”.
 
 	It’s important that we put a little effort to address some details:
 
@@ -177,8 +212,9 @@ function custom_menu_page_display(){
 	}
 	add_filter('the_content', 'replace_hello');
 
-=> What is the $wpdb variable in WordPress, and how can you use it to improve the following code?
-<?php
+**What is the $wpdb variable in WordPress, and how can you use it to improve the following code?**
+
+?php
 function perform_database_action(){
     mysql_query(“INSERT into table_name (col1, col2, col3) VALUES ('$value1','$value2', '$value3');
 } ?>
@@ -196,8 +232,9 @@ function perform_database_action(){
 	    $wpdb->insert('table_name', $data, $format);
 	}
 
-=> Consider the following code snippet and explain the purpose of wp_enqueue_script. Can you figure out if something is wrong in the snippet?
-add_custom_script();
+**Consider the following code snippet and explain the purpose of wp_enqueue_script. Can you figure out if something is wrong in the snippet?**
+
+dd_custom_script();
 function add_custom_script(){
     wp_enqueue_script(
         'jquery-custom-script',
@@ -219,8 +256,9 @@ function add_custom_script(){
 	    );
 	}
 
-=> Assuming we have a file named “wp-content/plugins/hello-world.php” with the following content. What is this missing to be called a plugin and run properly?
-<?php
+**Assuming we have a file named “wp-content/plugins/hello-world.php” with the following content. What is this missing to be called a plugin and run properly?**
+
+?php
 add_filter('the_content', 'hello_world');
 function hello_world($content){
     return $content . "<h1> Hello World </h1>";
@@ -232,19 +270,22 @@ function hello_world($content){
 	Plugin Name: My hello world plugin
 	*/
 
-=> What is a potential problem in the following snippet of code from a WordPress theme file named “footer.php”?
-...
+**What is a potential problem in the following snippet of code from a WordPress theme file named “footer.php”?**
+
+..
         </section><!—end of body section- ->
         <footer>All rights reserved</footer>
     </body>
 </html>
 	All footer files must call the <?php wp_footer() ?> function, ideally right before the </body> tag. This will insert references to all scripts and stylesheets that have been added by plugins, themes, and WordPress itself to the footer.
 
-=> What is this code for? How can the end user use it?
-function new_shortcode($atts, $content = null) {
+**What is this code for? How can the end user use it?**
+
+unction new_shortcode($atts, $content = null) {
     extract(shortcode_atts(array(
-        “type” => “warning”
-    ), $atts));
+        “type” **“warning”**
+
+           ), $atts));
     return '<div class="alert alert-'.$type.'">'.$content.'</div>';
 }
 add_shortcode(“warning_box”, “new_shortcode”);
@@ -257,19 +298,21 @@ add_shortcode(“warning_box”, “new_shortcode”);
 
 	[warning_box]Warning message[/warning_box]
 
-=> Is WordPress safe from brute force login attempts? If not, how can you prevent such an attack vector?
-	No, WordPress on its own is vulnerable to brute force login attempts.
+**Is WordPress safe from brute force login attempts? If not, how can you prevent such an attack vector?**
+
+No, WordPress on its own is vulnerable to brute force login attempts.
 	Some good examples of actions performed to protect a WordPress installation against brute force are:
 	Do not use the “admin” username, and use strong passwords.
 	Password protect “wp-login.php”.
 	Set up some server-side protections (IP-based restrictions, firewall, Apache/Nginx modules, etc.)
 	Install a plugin to add a captcha, or limit login attempts.
 
-=> The following line is in a function inside a theme’s “function.php” file. What is wrong with this line of code?
-wp_enqueue_script('custom-script', '/js/functions.js');
+**The following line is in a function inside a theme’s “function.php” file. What is wrong with this line of code?**
+
+p_enqueue_script('custom-script', '/js/functions.js');
 	Assuming that “functions.js” file is in the theme’s “js/” folder, we should use ‘get_template_directory_uri()’. '/js/functions.js' or the visitors’ browser will look for the file in the root directory of the website.
 
-=> Suppose you have a non-WordPress PHP website with a WordPress instance in the “/blog/” folder. How can you show a list of the last 3 posts in your non-WordPress pages?
+**Suppose you have a non-WordPress PHP website with a WordPress instance in the “/blog/” folder. How can you show a list of the last 3 posts in your non-WordPress pages?**
 
 	One obvious way is to download, parse, and cache the blog’s RSS feeds. However, since the blog and the website are on the same server, you can use all the WordPress power, even outside it.
 
@@ -290,11 +333,13 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 ===========================================================================
 ===========================================================================
 
-=> What is WordPress?
-	WordPress is an online, open source website creation tool written in PHP. But in non-geek speak, it’s probably the easiest and most powerful blogging and website content management system (or CMS) in existence today.
+**What is WordPress?**
 
-=> Different between WordPress.com vs WordPress.org?
-	WordPress.com (fully hosted)
+WordPress is an online, open source website creation tool written in PHP. But in non-geek speak, it’s probably the easiest and most powerful blogging and website content management system (or CMS) in existence today.
+
+**Different between WordPress.com vs WordPress.org?**
+
+WordPress.com (fully hosted)
 	Focus on your beautiful content, and let us handle the rest.
 
 	WordPress.org (self-hosted)
@@ -302,12 +347,14 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 
 	refer official URL: https://en.support.wordpress.com/com-vs-org/ for more details.
 
-=> Use of WordPress?
-	WordPress is a free and open-source blogging tool and a content management system (CMS) based on PHP and MySQL. Features include a plugin architecture and a template system.
+**Use of WordPress?**
+
+WordPress is a free and open-source blogging tool and a content management system (CMS) based on PHP and MySQL. Features include a plugin architecture and a template system.
 	WordPress was used by more than 23.3% of the top 10 million websites as of January 2015
 
-=> feature of WordPress?
-	Here are some of the features that we think that you’ll love.
+**feature of WordPress?**
+
+Here are some of the features that we think that you’ll love.
 
 	Simplicity
 	Flexibility
@@ -328,8 +375,9 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 	Community
 	Contribute
 
-=> Developer Features in a WordPress?
-	For developers, WordPress Have lots of goodies packed under the hood that you can use to extend WordPress in whatever direction takes your fancy.
+**Developer Features in a WordPress?**
+
+For developers, WordPress Have lots of goodies packed under the hood that you can use to extend WordPress in whatever direction takes your fancy.
 
 	Plugin System
 	Theme System
@@ -337,8 +385,9 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 	Custom Content Types
 	The Latest Libraries
 
-=> Why You Should Use WordPress?
-	WordPress is that it’s easy to use and flexible enough for just about anything. That’s the main reason why WordPress has grown so much in popularity. According to a recent survey, WordPress powers 22.5% of all websites on the internet.
+**Why You Should Use WordPress?**
+
+WordPress is that it’s easy to use and flexible enough for just about anything. That’s the main reason why WordPress has grown so much in popularity. According to a recent survey, WordPress powers 22.5% of all websites on the internet.
 
 	Let’s take a look at why you should use WordPress.
 
@@ -349,8 +398,9 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 	Easy To Manage
 	Safe and Secure
 	WordPress Can Handle Different Media Types
-=> What ways to use WordPress?
-	WordPress can be used in many different ways. It is open to possibilities.
+**What ways to use WordPress?**
+
+WordPress can be used in many different ways. It is open to possibilities.
 
 	You can use WordPress as the following:
 
@@ -364,11 +414,13 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 	Video Collection Site
 	Membership Site
 
-=> What is plugin in WordPress?
-	Plugins are ways to extend and add to the functionality that already exists in WordPress. The core of WordPress is designed to be lean and lightweight, to maximize flexibility and minimize code bloat. Plugins then offer custom functions and features so that each user can tailor their site to their specific needs.
+**What is plugin in WordPress?**
 
-=> Essential plugins for WordPress?
-	Here i am going to share some useful plugins that really help you so much for managing and improving performance as well security of  WordPress.
+Plugins are ways to extend and add to the functionality that already exists in WordPress. The core of WordPress is designed to be lean and lightweight, to maximize flexibility and minimize code bloat. Plugins then offer custom functions and features so that each user can tailor their site to their specific needs.
+
+**Essential plugins for WordPress?**
+
+Here i am going to share some useful plugins that really help you so much for managing and improving performance as well security of  WordPress.
 
 	https://wordpress.org/plugins/wordpress-seo/ (Best SEO Plugin)
 	https://wordpress.org/plugins/google-sitemap-generator/ (sitemap)
@@ -380,16 +432,19 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 	https://wordpress.org/plugins/wordfence/
 	https://wordpress.org/plugins/login-lockdown/
 
-=> Current version of WordPress?
-	Need to refer WordPress website: https://wordpress.org/news/category/releases/
+**Current version of WordPress?**
 
-=> How to Secure WordPress?
-	Security in WordPress is taken very seriously, but as with any other system there are potential security issues that may arise if some basic security precautions aren’t taken.
+Need to refer WordPress website: https://wordpress.org/news/category/releases/
+
+**How to Secure WordPress?**
+
+Security in WordPress is taken very seriously, but as with any other system there are potential security issues that may arise if some basic security precautions aren’t taken.
 
 	You need to read “http://codex.wordpress.org/Hardening_WordPress” carefully to understand WordPress  security.
 
-=> Template Files List for development WordPress Theme?
-	Here is the list of the Theme files recognized by WordPress. Of course, your Theme can contain any other stylesheets, images, or files.
+**Template Files List for development WordPress Theme?**
+
+Here is the list of the Theme files recognized by WordPress. Of course, your Theme can contain any other stylesheets, images, or files.
 
 	style.css: The main stylesheet. This must be included with your Theme, and it must contain the information header for your Theme.
 
@@ -427,15 +482,18 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 
 	404.php: The 404 Not Found template. Used when WordPress cannot find a post or page that matches the query.
 
-=>  prefix of WordPress tables by default?
-	By default, wp_ is the prefix
+** prefix of WordPress tables by default?**
 
-=> Plugin for Multi-language features?
-	WPML Multilingual Plugin.
+By default, wp_ is the prefix
+
+**Plugin for Multi-language features?**
+
+WPML Multilingual Plugin.
 	URL: https://wpml.org/
 
-=> Alternative CMS of WordPress?
-	Joomla
+**Alternative CMS of WordPress?**
+
+Joomla
 	Drupal
 	Ghost
 	Movable Type
@@ -443,14 +501,17 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 
 ===========================================================================
 ===========================================================================
-=> Is Wordpress opensource?
-	Yes, Wordpress is opensource and you can do customization as per your requirement. Wordpress is built in PHP/MySql/javascript/jQuery which is also an opensource.
+**Is Wordpress opensource?**
 
-=> What is current stable version of wordpress?
-	4.1 released in November 20, 2014
+Yes, Wordpress is opensource and you can do customization as per your requirement. Wordpress is built in PHP/MySql/javascript/jQuery which is also an opensource.
 
-=> What kind of website can I build with WordPress?
-	WordPress was originally developed as a blogging in 2003 but now it has been changed a lot. you can create personal website as well as commercial website.
+**What is current stable version of wordpress?**
+
+4.1 released in November 20, 2014
+
+**What kind of website can I build with WordPress?**
+
+WordPress was originally developed as a blogging in 2003 but now it has been changed a lot. you can create personal website as well as commercial website.
 	Following types of websites can be built in wordpress:
 	Informative Website
 	Personal Website
@@ -460,47 +521,58 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 	Blogging
 	Today, million of free/paid wordpress themes, wordpress plugin are available which help you to create as per your requirement.
 
-=> From where you can download plugins?
-	https://wordpress.org/plugins/
+**From where you can download plugins?**
 
-=> From where you can download themes?
-	https://wordpress.org/themes/
+https://wordpress.org/plugins/
 
-=> What is Hooks in wordpress?
-	Hooks allow user to create WordPress theme or plugin with shortcode without changing the original files.
+**From where you can download themes?**
 
-=> What are the types of hooks in WordPress?
-	Following are two types of hooks
+https://wordpress.org/themes/
+
+**What is Hooks in wordpress?**
+
+Hooks allow user to create WordPress theme or plugin with shortcode without changing the original files.
+
+**What are the types of hooks in WordPress?**
+
+Following are two types of hooks
 	A) Action hooks: This hooks allow you to insert an additional code.
 	B) Filter hooks: Filter hooks will only allow you to add a content or text at the end of the post.
 
-=> What are positive aspects of wordpress?
-	Easy to install and upgrade the wordpress
+**What are positive aspects of wordpress?**
+
+Easy to install and upgrade the wordpress
 	In-built SEO engine and you can manage the URL and meta data as per your requirement.
 	Easy to themes and plugins
 	Multilingual available in more than 70 languages
 	Can be do customization as per requirement
 	Lots of free/paid themes/plugin available
 
-=> What is the default prefix of wordpress tables?
-	wp_ is the prefix for wordpress but you can change at the time of installation.
+**What is the default prefix of wordpress tables?**
 
-=> What is WordPress loop?
-	The Loop is PHP code used by WordPress to display posts.
+wp_ is the prefix for wordpress but you can change at the time of installation.
 
-=> What are the template tags in WordPress?
-	Template tags is a code that instructs WordPress to "do" or "get" something
+**What is WordPress loop?**
 
-=> What are meta tags in wordpress?
-	Meta-tags are keywords and description used to display website.
+The Loop is PHP code used by WordPress to display posts.
 
-=> How to secure your wordpress website?
-	Install security plug-ins like WP security
+**What are the template tags in WordPress?**
+
+Template tags is a code that instructs WordPress to "do" or "get" something
+
+**What are meta tags in wordpress?**
+
+Meta-tags are keywords and description used to display website.
+
+**How to secure your wordpress website?**
+
+Install security plug-ins like WP security
 	Change password of super admin OR other admin
 	Add security level checks at server level like folder/file permission.
 
-=> How many tables a default WordPress will have?
-	Following are main table in wordpress:
+**How many tables a default WordPress will have?**
+
+Following are main table in wordpress:
 	wp_commentmeta
 	wp_comments
 	wp_links
@@ -513,22 +585,27 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 	wp_usermeta
 	wp_users
 
-=> How to hide the top admin bar at the frontend in WordPress?
-	Add following code functions.php
+**How to hide the top admin bar at the frontend in WordPress?**
+
+Add following code functions.php
 	add_filter('show_admin_bar', '__return_false');
 
-=> How to hide Directory Browsing in WordPress from server?
-	Add following code in htaccess file
+**How to hide Directory Browsing in WordPress from server?**
+
+Add following code in htaccess file
 	Options -Indexes
 
-=> How to display custom field in wordpress?
-	echo get_post_meta($post->ID, 'keyName', true);
+**How to display custom field in wordpress?**
 
-=> How to run database Query in WordPress?
-	$wpdb->query("select * from $wpdb->posts   where ID>10 ");
+echo get_post_meta($post->ID, 'keyName', true);
 
-=> What types of hooks in wordpress is used?
-	1)Following are Actions hooks:.
+**How to run database Query in WordPress?**
+
+$wpdb->query("select * from $wpdb->posts   where ID>10 ");
+
+**What types of hooks in wordpress is used?**
+
+1)Following are Actions hooks:.
 		has_action()
 		add_action()
 		do_action()
@@ -546,19 +623,22 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 		remove_filter()
 		remove_all_filters()
 
-=> How can you backup your WordPress content?
-	WordPress admin -> Tools -> Import
+**How can you backup your WordPress content?**
 
-=> List most commonly functions used in wordpress?
-	wp_nav_menu() :- Displays a navigation menu.
+WordPress admin -> Tools -> Import
+
+**List most commonly functions used in wordpress?**
+
+wp_nav_menu() :- Displays a navigation menu.
 	is_page() :- to check if this is page OR NOT, will return boolean value.
 	get_the_excerpt() :- Copy the excerpt of the post into a specified variable.
 	in_category() :- Check if the specified post is assigned to any of the specified categories OR not.
 	the_title():- Displays the title of the post in website.
 	the_content():- Displays the contents of the post in website.
 
-=> What are the file structure in wordpress.
-	Following are main files which used in wordpress
+**What are the file structure in wordpress.**
+
+Following are main files which used in wordpress
 	index.php :- for index page.
 	search.php :- For display the search result page.
 	single.php :- for single post page.
@@ -575,8 +655,9 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 
 ===========================================================================
 ===========================================================================
-=> How to create a folder if it doesn't already exist in Wordpress?
-	$pathname='path/to/directory';
+**How to create a folder if it doesn't already exist in Wordpress?**
+
+$pathname='path/to/directory';
 	if (!file_exists($pathname)) {
 	    mkdir($pathname, 0777, true);
 	}
@@ -585,82 +666,95 @@ wp_enqueue_script('custom-script', '/js/functions.js');
 	Folder Permission: Permission of folder.
 	Recursive: true for all sub directory, false for current directory only.
 
-=> What is difference between mode value 0777 and 777 in mkdir/chmod function?
-	In PHP, 0777 and 777 have same meaning and no difference.
+**What is difference between mode value 0777 and 777 in mkdir/chmod function?**
+
+In PHP, 0777 and 777 have same meaning and no difference.
 	When you are providing 4 digit in for permission, it means 1 digit will be used for sticky bit.
 	sticky bit is access right flag that can be assigned to files and directories on Unix-like systems.
 
 
-=> Where to place to insert the google analytics Code?
-	You should add "Google analytics code" in Every page, so that you can get all pages tracking report.
+**Where to place to insert the google analytics Code?**
+
+You should add "Google analytics code" in Every page, so that you can get all pages tracking report.
 	As per google, you should add "Google Analytics code" just before the closing of "head" for better results.
 	https://support.google.com/analytics/answer/1008080?hl=en
 
 	In wordpress, when we are using some theme for displaying your website. there might be textbox in admin section, to add the "Google Analytics" code for tracking purpose.(May OR may not available in your current theme)
 
-=> How to get the current page name in WordPress?
-	You can get the page name from below of two?
+**How to get the current page name in WordPress?**
+
+You can get the page name from below of two?
 	$slug = basename(get_permalink());
 	OR
 	$pagename = get_query_var('pagename');  
 
-=> How do I ge the version of wordpress?
-	echo bloginfo('version');
+**How do I ge the version of wordpress?**
+
+echo bloginfo('version');
 	Above is get from below file.
 	You can check in wp-includes/version.php 
 	$wp_version = '4.1.2';
 
-=> How to turn off the Notice/Warning from my wordpress website?
-	Open the wp-config.php file and WP_DEBUG set the false.
+**How to turn off the Notice/Warning from my wordpress website?**
+
+Open the wp-config.php file and WP_DEBUG set the false.
 	define('WP_DEBUG', false );
 
 
-=> What is use of __() and _e() functions in wordpress?
-	These are function used when you website multilingual.
+**What is use of __() and _e() functions in wordpress?**
+
+These are function used when you website multilingual.
 	each of this function have two parameter.
 	1st parameter: String which you want to convert from one language to another.
 	2nd parameter: domain name.
 	 $translatedText = __( 'TEXT_FOR_TRANSLATION', 'textdomain' ); //This will return the translated text
 	 _e( 'TEXT_FOR_TRANSLATION', 'textdomain' ); //This will print the translated text
 
-=> How to get wordpress post featured image URL?
-	if (has_post_thumbnail( $post->ID ) ){ 
+**How to get wordpress post featured image URL?**
+
+if (has_post_thumbnail( $post->ID ) ){ 
 	  $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 	  echo $image[0];//image url 
 	}
 
-=> How to get last inserted row id from wordpress database?
-global $wpdb;
+**How to get last inserted row id from wordpress database?**
+
+lobal $wpdb;
 	/** insert query here with $wpdb**/
 	/** insert query here with $wpdb**/
 	 $lastId = $wpdb->insert_id; //This is last insert id
 
-=> How to Remove P and Br tags in WordPress posts?
-	Open functions.php in your current active theme.
+**How to Remove P and Br tags in WordPress posts?**
+
+Open functions.php in your current active theme.
 	Add following lines
 	remove_filter( 'the_content', 'wpautop' );
 	remove_filter( 'the_excerpt', 'wpautop' );
 	http://codex.wordpress.org/Function_Reference/wpautop
 
-=> How do I get current taxonomy "term id" on wordpress?
-	$obj = get_queried_object();
+**How do I get current taxonomy "term id" on wordpress?**
+
+$obj = get_queried_object();
 	echo $obj->term_id;
 
-=> How do I add Syntax Highlighting on wordpress.com?
-	As you can't install plugin for syntax high lighting in wordpress.com, you can use existing syntax highligher.
+**How do I add Syntax Highlighting on wordpress.com?**
+
+As you can't install plugin for syntax high lighting in wordpress.com, you can use existing syntax highligher.
 	[sourcecode language='python']
 
 	[/sourcecode]
 
-=> How to check admin login or Not?
-	if(is_admin()) {
+**How to check admin login or Not?**
+
+if(is_admin()) {
 	/** Write your code here */
 
 	/** Write your code here */
 	}
 
-=> How to protect your website from DDos Attack?
-	Add following code in your .htaccess file.
+**How to protect your website from DDos Attack?**
+
+Add following code in your .htaccess file.
 	<files xmlrpc.php>
 	      order allow,deny
 	      deny from all
@@ -668,28 +762,35 @@ global $wpdb;
 
 ==========================================================================
 ==========================================================================
-=> What is WordPress?
-	WordPress is an Open Source Content Management System (CMS) and a blogging tool that is based on PHP and MySQL. It is free of cost and you can use it on any type of personal and commercial website.
+**What is WordPress?**
+
+WordPress is an Open Source Content Management System (CMS) and a blogging tool that is based on PHP and MySQL. It is free of cost and you can use it on any type of personal and commercial website.
 
 	Wordpress is the most popular blogging system and used on more than 60 million websites. It is licensed under GPL.
 
-=> Is a website on WordPress safe and secure?
-	WordPress is safe and secure to operate. You should not have to worry about anything but still it is suggested to keep updating with the latest version of WordPress to avoid hacking.
+**Is a website on WordPress safe and secure?**
 
-=> Is there any limitation for WordPress website?
-	WordPress can be used for e-commerce sites, membership sites, photo galleries and any other type of site you can think of. There are no such limitations for WordPress.
+WordPress is safe and secure to operate. You should not have to worry about anything but still it is suggested to keep updating with the latest version of WordPress to avoid hacking.
 
-=> What is the latest version of WordPress?
-	The latest version of WordPress is 4.4 released in Sept, 2015.
+**Is there any limitation for WordPress website?**
 
-=> Is it possible to SEO a WordPress site to show it on Google first page?
-	WordPress has an in-built SEO search engine benefit. You can also have an additional plug-in in WordPress to help with SEO and rank on a popular search engine like Google.
+WordPress can be used for e-commerce sites, membership sites, photo galleries and any other type of site you can think of. There are no such limitations for WordPress.
 
-=> What is the difference between character 23 and x23?
-	Here 23 specifies the octal 23 and x23 specifies the hex 23.
+**What is the latest version of WordPress?**
 
-=> What are hooks? Define the different type of hooks in WordPress.
-	Hooks enable users to create WordPress themes or plug-ins with shortcode without changing the original files.
+The latest version of WordPress is 4.4 released in Sept, 2015.
+
+**Is it possible to SEO a WordPress site to show it on Google first page?**
+
+WordPress has an in-built SEO search engine benefit. You can also have an additional plug-in in WordPress to help with SEO and rank on a popular search engine like Google.
+
+**What is the difference between character 23 and x23?**
+
+Here 23 specifies the octal 23 and x23 specifies the hex 23.
+
+**What are hooks? Define the different type of hooks in WordPress.**
+
+Hooks enable users to create WordPress themes or plug-ins with shortcode without changing the original files.
 
 	There are two types of hooks:
 
@@ -697,8 +798,9 @@ global $wpdb;
 
 	Filter hooks: Filter hooks facilitate you to add a content or text at the end of the post.
 
-=> What are the most interesting and useful features of WordPress?
-	These are the features which make WordPress very popular:
+**What are the most interesting and useful features of WordPress?**
+
+These are the features which make WordPress very popular:
 	Easy to install and upgrade
 	In-built SEO engine
 	Free and easy theme selection
@@ -707,8 +809,9 @@ global $wpdb;
 	Own data- no unwanted advert on your website
 	Flexibility and Easy publishing option
 
-=> Why does WordPress use MySQL?
-	Following are the reasons to use MySQL with WordPress:
+**Why does WordPress use MySQL?**
+
+Following are the reasons to use MySQL with WordPress:
 	Open source
 	Extremely fast
 	Widely available database server
@@ -729,47 +832,55 @@ global $wpdb;
 	wp_users
 	Note: The number of tables may be changed with successive releases.
 
-=> What is loop in WordPress?
-	WordPress uses PHP codes to display posts. This PHP code is known as loop.
+**What is loop in WordPress?**
 
-=> How can you disable the WordPress comment?
-	You can disable the WordPress comment on editing on dashboard. On the dashboard, under the options- discussion you find "Allow people to post comment". Uncheck this to disable comment.
+WordPress uses PHP codes to display posts. This PHP code is known as loop.
 
-=> How can you handle the situation if your WordPress file is hacked?
-	You should follow these steps:
+**How can you disable the WordPress comment?**
+
+You can disable the WordPress comment on editing on dashboard. On the dashboard, under the options- discussion you find "Allow people to post comment". Uncheck this to disable comment.
+
+**How can you handle the situation if your WordPress file is hacked?**
+
+You should follow these steps:
 
 	Install security plug-ins like WP security
 	Re-install the latest version of WordPress
 	Change password and user-ids for all your users
 	Check your themes and plug-ins are up to date
 
-=> What are the plugins you can use to create contact form in WordPress?
+**What are the plugins you can use to create contact form in WordPress?**
 
 You can use plug-in like Gravity forms or also you can use a free plugin contact form 7 to create a contact form in WordPress.
 
-=> Which is considered more secured wordpress.com or wordpress.org?
+**Which is considered more secured wordpress.com or wordpress.org?**
 
 Wordpress.com is relatively more secure than wordpress.org because they limit the themes and also does not allow installing plugin's. However, security is depending on the hosting company of your website and also what are the steps they are taking to prevent the security problems.
 
-=> How can you call a constructor for a parent class?
-	You can call a constructor for a parent class by this way:
+**How can you call a constructor for a parent class?**
+
+You can call a constructor for a parent class by this way:
 	Parents:: constructor($value)
 
-=> In what cases WordPress is not suitable for the website?
-	Following are some situations when WordPress is not recommended.
+**In what cases WordPress is not suitable for the website?**
+
+Following are some situations when WordPress is not recommended.
 
 	If the client is working on non-CMS based project.
 	For complex and innovative e-commerce sites.
 	Sites requiring custom scripting solutions.
 
-=> What is the difference between custom themes and normal themes?
-	Custom themes are very easy to format. You don't need much technical knowledge to change in the coding part. Custom theme allows for SEO search, but with a SEO plugin available it would not make much difference to normal theme.
+**What is the difference between custom themes and normal themes?**
 
-=> Is WordPress the best CMS or there any CMS better than WordPress?
-	No doubt WordPress is good CMS but Drupal and Joomla are considered better CMS than WordPress to work with.
+Custom themes are very easy to format. You don't need much technical knowledge to change in the coding part. Custom theme allows for SEO search, but with a SEO plugin available it would not make much difference to normal theme.
 
-=> What are meta-tags in WordPress?
-	Meta-tags are keyword and description that are used to display website or page information.
+**Is WordPress the best CMS or there any CMS better than WordPress?**
+
+No doubt WordPress is good CMS but Drupal and Joomla are considered better CMS than WordPress to work with.
+
+**What are meta-tags in WordPress?**
+
+Meta-tags are keyword and description that are used to display website or page information.
 
 ===========================================================================
 ===========================================================================
@@ -917,8 +1028,9 @@ Ans: When we access a class method via -> we will require object initialization 
 
 ==========================================================================
 ==========================================================================
-=> What are hooks and define types of hooks in WordPress?
-	Hooks are provided by WordPress to allow your plugin to ‘hook into’ the rest of WordPress; that is, to call functions in your plugin at specific times, and thereby set your plugin in motion. There are two kinds of hooks:
+**What are hooks and define types of hooks in WordPress?**
+
+Hooks are provided by WordPress to allow your plugin to ‘hook into’ the rest of WordPress; that is, to call functions in your plugin at specific times, and thereby set your plugin in motion. There are two kinds of hooks:
 
 	Actions Hooks: Actions hooks are the hooks that the WordPress core launches at specific points during execution, or when specific events occur. Your plugin can specify that one or more of its PHP functions which are executed at these points, using the Action API.
 
@@ -943,24 +1055,27 @@ Ans: When we access a class method via -> we will require object initialization 
 	remove_filter()
 	remove_all_filters()
 
-=> What are the template tags in WordPress?
-	A template tag is code that instructs WordPress to “do” or “get” something. Like in header.php  we will use the tag bloginfo(‘name’) to get “Site Title” from wp-options table which is set in Setting > General at WordPress dashboard.
+**What are the template tags in WordPress?**
+
+A template tag is code that instructs WordPress to “do” or “get” something. Like in header.php  we will use the tag bloginfo(‘name’) to get “Site Title” from wp-options table which is set in Setting > General at WordPress dashboard.
 	The the_title() template tag is used to display the post title.
 	wp_list_cats() is  for display categories.
 	get_header() for getting header.
 	get_sidebar() for display the sidebar on page.
 	get_footer() for get the footer content on page.
 
-=> How to write the short code in WordPress php file?
-	Using do_shortcode() function inside of php echo tag. A very simple solution is to use the do_shortcode() function inside a PHP echo tag.
+**How to write the short code in WordPress php file?**
+
+Using do_shortcode() function inside of php echo tag. A very simple solution is to use the do_shortcode() function inside a PHP echo tag.
 	<?php do_shortcode("[shortcode]"); ?>
 	0
 	1
 	<?php do_shortcode("[shortcode]"); ?>
 	Short code is used in WordPress post or page and text box widget and php file.
 
-=> What are rules to follow in WordPress plugin development?
-	Find a unique name
+**What are rules to follow in WordPress plugin development?**
+
+Find a unique name
 	Setup a prefix (related to your brand)
 	Create the plugin’s folder
 	Create sub-folders for PHP files, assets, and translations
@@ -971,66 +1086,82 @@ Ans: When we access a class method via -> we will require object initialization 
 	Create activation and deactivation functions
 	Create an uninstall script
 
-=> What are the steps you can take if your WordPress file is hacked?
-	Install security plugin like WP security
+**What are the steps you can take if your WordPress file is hacked?**
+
+Install security plugin like WP security
 	Re-install the latest version of WordPress
 	Change password and user-ids for all your users
 	Check your themes and plugins are up to date
 
-=> In which cases you don’t see plugin menu?
-	You can’t see your plugin menu when the blog is hosted on free wordpress.com as you cannot add plugin there.  Also, if you do not have an account of an administrator level on your WordPress dashboard, it is not possible to see plugin.
+**In which cases you don’t see plugin menu?**
 
-=> What is the difference between the wp_title and the_title tags?
-	wp_title() function is for use outside “The Loop” to display the title of a Page.  the_title() on the other hand is used within “The Loop“.
+You can’t see your plugin menu when the blog is hosted on free wordpress.com as you cannot add plugin there.  Also, if you do not have an account of an administrator level on your WordPress dashboard, it is not possible to see plugin.
 
-=> How to modify the parent theme behavior within the child theme?
-	The child theme could optionally override other template files like author.php, category.php, functions.php, style.css etc. The WordPress framework first looks for a template file in the child theme directory and then will pick it up from the parent directory if not found.
+**What is the difference between the wp_title and the_title tags?**
+
+wp_title() function is for use outside “The Loop” to display the title of a Page.  the_title() on the other hand is used within “The Loop“.
+
+**How to modify the parent theme behavior within the child theme?**
+
+The child theme could optionally override other template files like author.php, category.php, functions.php, style.css etc. The WordPress framework first looks for a template file in the child theme directory and then will pick it up from the parent directory if not found.
 
 	For more details: http://code.tutsplus.com/articles/how-to-modify-the-parent-theme-behavior-within-the-child-theme–wp-31006
 
-=> How to Create Custom Post Type?
-	Custom post types are new post types you can create. A custom post type can be added to WordPress via the register_post_type() function. This function allows you to define a new post type by its labels, supported features, availability and other specifics.
+**How to Create Custom Post Type?**
+
+Custom post types are new post types you can create. A custom post type can be added to WordPress via the register_post_type() function. This function allows you to define a new post type by its labels, supported features, availability and other specifics.
 	Here’s a basic example of adding a custom post type:
 	Custom Post Type
 
-=> How to check if a page exists by url?
-	You can use get_page_by_path() function. Refer check page existance by url detailed article.
+**How to check if a page exists by url?**
 
-=> What do next_posts_link() and previous_posts_link() do?
-	Because post queries are usually sorted in reverse chronological order, next_posts_link() usually points to older entries (toward the end of the set) and previous_posts_link() usually points to newer entries (toward the beginning of the set).
+You can use get_page_by_path() function. Refer check page existance by url detailed article.
 
-=> How to create mailchimp or vertical response campaign for newsletter subscribers & link with WordPress ?
-	First Create List & Campaign on mailchimp/ WordPress account . Then subscribe users from WordPress in mailchimp list by plugin or  manual hard code webform.
+**What do next_posts_link() and previous_posts_link() do?**
 
-=> What options are there to implement a multi language site ?
-	WordPress has no bi/multi-language feature built in by default. The other road would be to extend the site with Add-ons like plugins and themes that have multi-language features built-in.
+Because post queries are usually sorted in reverse chronological order, next_posts_link() usually points to older entries (toward the end of the set) and previous_posts_link() usually points to newer entries (toward the beginning of the set).
 
-=> How will you retrieve adjacent posts (next/previous) within the same category?
-	We can retrieve previous post using get_adjacent_post() function and providing it ‘true‘ and taxonomy name in first and last parameters respectively. Setting third parameter to false will bring next adjacent post in front of you.
+**How to create mailchimp or vertical response campaign for newsletter subscribers & link with WordPress ?**
 
-=> How to create Custom Taxonomy specific to a Custom Post type?
-	First of all if you want to show taxonomy metabox only to custom post type then register the taxonomy to only that custom post type by passing the custom post type name as argument in register_taxonomy(). By doing this the taxonomy metabox appears only to custom post type.
+First Create List & Campaign on mailchimp/ WordPress account . Then subscribe users from WordPress in mailchimp list by plugin or  manual hard code webform.
+
+**What options are there to implement a multi language site ?**
+
+WordPress has no bi/multi-language feature built in by default. The other road would be to extend the site with Add-ons like plugins and themes that have multi-language features built-in.
+
+**How will you retrieve adjacent posts (next/previous) within the same category?**
+
+We can retrieve previous post using get_adjacent_post() function and providing it ‘true‘ and taxonomy name in first and last parameters respectively. Setting third parameter to false will bring next adjacent post in front of you.
+
+**How to create Custom Taxonomy specific to a Custom Post type?**
+
+First of all if you want to show taxonomy metabox only to custom post type then register the taxonomy to only that custom post type by passing the custom post type name as argument in register_taxonomy(). By doing this the taxonomy metabox appears only to custom post type.
 
 	For more details: http://WordPress.stackexchange.com/questions/57493/custom-taxonomy-specific-to-a-custom-post-type
 
-=> How can I stop WordPress from prompting me to enter FTP information when doing updates?
-	If you edit your wp-config.php file you can preload these FTP settings as constants read by WordPress. Keep in mind, on a shared host, you should be mindful of possible security implications. 
+**How can I stop WordPress from prompting me to enter FTP information when doing updates?**
 
-=> How To Activate Plugins via Code?
-	Plugins are stored in an array in the ‘active_plugins‘ option. The array contains the file path to each plugin that is active. To activate a plugin you need to determine what it’s path will be, then pass that path to activate_plugin($plugin_path).
+If you edit your wp-config.php file you can preload these FTP settings as constants read by WordPress. Keep in mind, on a shared host, you should be mindful of possible security implications. 
+
+**How To Activate Plugins via Code?**
+
+Plugins are stored in an array in the ‘active_plugins‘ option. The array contains the file path to each plugin that is active. To activate a plugin you need to determine what it’s path will be, then pass that path to activate_plugin($plugin_path).
 
 	Before you can call activate_plugin() you need to include the plugin.php file from wp-admin/includes/. You should also check to make sure your plugin isn’t already active. The result looks something like this:
 
 	Activate Plugins via Code
 
-=>  What’s the difference between site_url() and home_url()?
-	The site_url() will always be the location where you can reach the site by tacking on /wp-admin on the end, while home_url() would not reliably be this location. The home_url() would be where you have set your homepage by setting General > Settings “Site Address (URL)” field.
+** What’s the difference between site_url() and home_url()?**
 
-=> How to Link External jQuery/Javascript files with WordPress
-	Add your own scripts via wp_enqueue_script() in your template’s functions.php, appropriately setting dependences on jQuery, and wp_head() will add the scripts for you.
+The site_url() will always be the location where you can reach the site by tacking on /wp-admin on the end, while home_url() would not reliably be this location. The home_url() would be where you have set your homepage by setting General > Settings “Site Address (URL)” field.
 
-=> How to set global variable in functions.php
-	Pure PHP question, really.
+**How to Link External jQuery/Javascript files with WordPress**
+
+Add your own scripts via wp_enqueue_script() in your template’s functions.php, appropriately setting dependences on jQuery, and wp_head() will add the scripts for you.
+
+**How to set global variable in functions.php**
+
+Pure PHP question, really.
 	global $urlSmall;
 	$urlSmall = $thumbSmall['0'];
 	0
@@ -1042,8 +1173,9 @@ Ans: When we access a class method via -> we will require object initialization 
 	$urlSmall = $thumbSmall['0'];
 	If you declare the variable with the ‘global‘ keyword when you initialize it, it will be available thereafter.
 
-=> How to retrieve an image attachment’s alt text?
-	The wp_get_attachment_image() function which will return an HTML string containing these attributes:
+**How to retrieve an image attachment’s alt text?**
+
+The wp_get_attachment_image() function which will return an HTML string containing these attributes:
 	‘src‘
 	‘class‘
 	‘alt‘
