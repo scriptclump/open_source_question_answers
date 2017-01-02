@@ -1,10 +1,10 @@
 **What is WordPress?**
 
-Word press is a best Open Source CMS which allows it to be used free of cost.  You can use it on any kind of personal or commercial website without have to pay a single penny for it. It is built on PHP/MySQL (which is again Open Source) and licensed under GPL.
+WordPress is a best Open Source CMS which allows it to be used free of cost.  You can use it on any kind of personal or commercial website without have to pay a single penny for it. It is built on PHP/MySQL (which is again Open Source) and licensed under GPL.
 
 **How safe is website on WordPress?**
 
-The word press is safe to operate but still it is suggested to keep updating with the latest version of WordPress to avoid hacking.
+The WordPress is safe to operate but still it is suggested to keep updating with the latest version of WordPress to avoid hacking.
 
 **Are there any limitations to a WordPress web site?**
 
@@ -24,7 +24,9 @@ You need to quote the current version of WordPress available in market along wit
 
 **What are the types of hooks in WordPress and mention their functions?**
 
-There are two types of hooks 1) Action hooks 2) Filter hooks
+There are two types of hooks
+- Action hooks
+- Filter hooks
 Hooks allow user to create WordPress theme or plugin with shortcode without changing the original files. Action hooks allow you to insert an additional code from an outside resource, whereas, Filter hooks will only allow you to add a content or text at the end of the post.
 
 **What do you mean by custom field in WordPress?**
@@ -34,24 +36,24 @@ Custom field is a meta-data that allows you to store arbitrary information to th
 **What are the positive aspects of WordPress?**
 
 Few positive aspects of WordPress are
-	-	Easy installation and upgrade
-	-	In-built SEO engine
-	-	Easy theme system
-	-	Flexibility
-	-	Multilingual- available in more than 70 languages
-	-	Own data- no unwanted advert on your website
-	-	Flexibility and Easy publishing option
+- Easy installation and upgrade
+- In-built SEO engine
+- Easy theme system
+- Flexibility
+- Multilingual- available in more than 70 languages
+- Own data- no unwanted advert on your website
+- Flexibility and Easy publishing option
 
 **What are the rules that you have to follow for WordPress plugin development?**
 
--	Create a unique name
--	Create the plugin’s folder
--	Create a sub-folder for PHP files,  translations and assets
--	Create the main plug-in file and fill in header information
--	Create activation and de-activation functions
--	Create an uninstall script
--	Create a readme.txt file
--	To detect paths to plugin file use proper constants and functions
+- Create a unique name
+- Create the plugin’s folder
+- Create a sub-folder for PHP files,  translations and assets
+- Create the main plug-in file and fill in header information
+- Create activation and de-activation functions
+- Create an uninstall script
+- Create a readme.txt file
+- To detect paths to plugin file use proper constants and functions
 
 **What is the prefix of WordPress tables by default?**
 
@@ -82,10 +84,10 @@ If you go on dashboard under options-discussion there is a comment “Allow peop
 
 **What are the steps you can take if your WordPress file is hacked?**
 
--	Install security plug-ins like WP security
--	Re-install the latest version of WordPress
--	Change password and user-ids for all your users
--	Check your themes and plug-ins are up to date
+- Install security plug-ins like WP security
+- Re-install the latest version of WordPress
+- Change password and user-ids for all your users
+- Check your themes and plug-ins are up to date
 
 **What are the template tags in WordPress?**
 
@@ -114,9 +116,6 @@ To create a contact form in WordPress you can use plugin like Gravity forms or a
 **Why widget does not show up in the sidebar?**
 
 While using widget you have to ensure whether your theme supports the widget and if it does then it must show the sidebar.  If in any case if it happens that you don’t see the sidebar then it might be missing the “function.php” file or file similar to that.  This can also happen if you have forgot to save the changes in the widget or refreshing the older display of the page.
-**Is there any limitation for using WordPress?**
-
-No, there is no limitation for using WordPress.  WordPress can be used for innumerable purpose membership site, e-commerce site, photo-gallery and many more.
 
 **How is creating a site on WordPress.org different from WordPress.com?**
 
@@ -133,10 +132,10 @@ No, de-activated plugins cannot slow down the WordPress site.  WordPress only lo
 **In what case we cannot recommend WordPress to our client?**
 
 We cannot recommend WordPress on following situation:
-	-	If client is working on non-CMS base project
-	-	If site wants complex or innovative e-commerce
-	-	In case of enterprise intranet solution
-	-	Sites requiring custom scripting solutions.
+ - If client is working on non-CMS base project
+ - If site wants complex or innovative e-commerce
+ - In case of enterprise intranet solution
+ - Sites requiring custom scripting solutions.
 
 **What are the essential features you look for a theme?**
 
