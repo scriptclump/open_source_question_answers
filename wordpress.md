@@ -1,6 +1,6 @@
 **What is WordPress?**
 
-WordPress is a best Open Source CMS which allows it to be used free of cost.  You can use it on any kind of personal or commercial website without have to pay a single penny for it. It is built on PHP/MySQL (which is again Open Source) and licensed under GPL.
+WordPress is a best Open Source CMS which allows it to be used free of cost.  You can use it on any kind of personal or commercial website without have to pay a single penny for it. It is built on PHP/MySQL (which is again Open Sourc- and licensed under GPL.
 
 **How safe is website on WordPress?**
 
@@ -200,7 +200,7 @@ This will add a new menu item labelled “Custom Menu” to the side menu of the
 
 With default settings and roles, admins can view it and all lower roles can’t. In fact this menu item will only be visible to users who have the privilege to “manage options” or change settings from WordPress admin dashboard.
 
-The admin custom page will be made available at this (relative) URL: “?page=custom-menu-slug”.
+The admin custom page will be made available at this (relativ- URL: “?page=custom-menu-slug”.
 
 **How would you change all the occurrences of “Hello” into “Good Morning” in post/page contents, when viewed before 11AM?**
 
@@ -557,11 +557,10 @@ Hooks allow user to create WordPress theme or plugin with shortcode without chan
 **What are the types of hooks in WordPress?**
 
 Following are two types of hooks
-	A) Action hooks: This hooks allow you to insert an additional code.
-	B) Filter hooks: Filter hooks will only allow you to add a content or text at the end of the post.
-
-**What are positive aspects of wordpress?**
-
+	
+	- Action hooks: This hooks allow you to insert an additional code.
+	- Filter hooks: Filter hooks will only allow you to add a content or text at the end of the post-
+**What are positive aspects of wordpress?*-
 Easy to install and upgrade the wordpress
 	In-built SEO engine and you can manage the URL and meta data as per your requirement.
 	Easy to themes and plugins
@@ -618,7 +617,7 @@ Add following code in htaccess file
 
 **How to display custom field in wordpress?**
 
-echo get_post_meta($post->ID, 'keyName', true);
+echo get_post_meta($post->ID, 'keyName', tru-;
 
 **How to run database Query in WordPress?**
 
@@ -681,8 +680,8 @@ Following are main files which used in wordpress
 **How to create a folder if it doesn't already exist in Wordpress?**
 
 $pathname='path/to/directory';
-	if (!file_exists($pathname)) {
-	    mkdir($pathname, 0777, true);
+	if (!file_exists($pathnam-) {
+	    mkdir($pathname, 0777, tru-;
 	}
 	In mkdir have following 3 parameters.
 	Pathname: path where you want to create the folder
@@ -702,7 +701,7 @@ You should add "Google analytics code" in Every page, so that you can get all pa
 	As per google, you should add "Google Analytics code" just before the closing of "head" for better results.
 	https://support.google.com/analytics/answer/1008080?hl=en
 
-	In wordpress, when we are using some theme for displaying your website. there might be textbox in admin section, to add the "Google Analytics" code for tracking purpose.(May OR may not available in your current theme)
+	In wordpress, when we are using some theme for displaying your website. there might be textbox in admin section, to add the "Google Analytics" code for tracking purpose.(May OR may not available in your current them-
 
 **How to get the current page name in WordPress?**
 
@@ -882,7 +881,7 @@ Wordpress.com is relatively more secure than wordpress.org because they limit th
 **How can you call a constructor for a parent class?**
 
 You can call a constructor for a parent class by this way:
-	Parents:: constructor($value)
+	Parents:: constructor($valu-
 
 **In what cases WordPress is not suitable for the website?**
 
@@ -935,7 +934,7 @@ Q: What is the procedure to call a constructor for a parent class?
 
 Ans: The command to call a constructor for a parent class is
 
-parent::constructor($value)
+parent::constructor($valu-
 
 Q: Can you answer that whether objects are passed by value or by reference?
 
@@ -1209,295 +1208,339 @@ The wp_get_attachment_image() function which will return an HTML string containi
 --------
 Wordpress Test Question Answers 2013-2014
 Q1. In the WordPress.org version 2.5.1, the sidebar is used to display _____.
-a) Widgets (x)
-b) Plugins
-c) User Profile
-d) None of these
+
+- Widgets (x)
+- Plugins
+- User Profile
+- None of these
 
 Q2. In the WordPress.org version 2.5.1, you can _____.
-a) add third party ‘widgets’
-b) add third party ‘plugins’
-c) import Posts from different blog websites (x)
-d) export Posts to different WordPress blogs,
+
+- add third party ‘widgets’
+- add third party ‘plugins’
+- import Posts from different blog websites (x)
+- export Posts to different WordPress blogs,
 
 Q3. Which of the following things are required for the installation of the WordPress.org version 2.5.1?
-a) Web Server  (x)
-b) Text Editor (x)
-c) Web Browser(x)
-d) Dreamweaver
+
+- Web Server  (x)
+- Text Editor (x)
+- Web Browser(x)
+- Dreamweaver
 
 Q3. In the WordPress.org version 2.5.1, there is a feature known as ‘Update Services’ which notifies site update services whenever a new post is published or whenever the blog is updated. Which of the following is the default update service in the WordPress.org version 2.5.1?
-a) http://ping.feedburner.com
-b) http://rpc.weblogs.com/RPC2
-c) http://www.blogoole.com/ping/
-d) http://rpc.pingomatic.com/ (x)
-e) None of these
+
+- http://ping.feedburner.com
+- http://rpc.weblogs.com/RPC2
+- http://www.blogoole.com/ping/
+- http://rpc.pingomatic.com/ (x)
+- None of these
 
 Q4. In the case of a free WordPress.com blog, the number of users that can be invited by a registered user is?
-a) 30
-b) 35 (x)
-c) 40
-d) 45
-e) Unlimited
+
+- 30
+- 35 (x)
+- 40
+- 45
+- Unlimited
 
 Q5. Which of the following WordPress.org version 2.5.1 components or modules is not activated by default?
-a) Akismet
-b) Avatar Display
-c) Comments Moderation
-d) All of these are activated by default (x)
+
+- Akismet
+- Avatar Display
+- Comments Moderation
+- All of these are activated by default (x)
 
 Q6. What kind of information do cookies store in WordPress?
-a) Information about the logged in user (x)
-b) Information about Comments
-c) Information about New Posts
-d) Information about Pages visited recently
+
+- Information about the logged in user (x)
+- Information about Comments
+- Information about New Posts
+- Information about Pages visited recently
 
 Q7. You want to apply a new theme to your WordPress.org version 2.5.1 site. What will be the right method?
-a) Click theme editor in the design section and then edit
-b) Click theme in the design section and select the new theme (x)
-c) Click widget in the design section and select the new theme
-d) Delete the old theme in the settings and select the new theme
-e) Select the new theme in Plugins
+
+- Click theme editor in the design section and then edit
+- Click theme in the design section and select the new theme (x)
+- Click widget in the design section and select the new theme
+- Delete the old theme in the settings and select the new theme
+- Select the new theme in Plugins
 
 Q8. Suppose you have a WordPress.com blog named ‘http://your-username.wordpress.com’ and you want to know its RSS feeds details. Which of the following URLs will you use to get details?
-a) http://your-username.wordpress.com/rssfeed
-b) http://your-username.wordpress.com/RSS 
-c) http://your-username.wordpress.com/feed(x)
-d) http://your-username.wordpress.com/RSSfeeds
+
+- http://your-username.wordpress.com/rssfeed
+- http://your-username.wordpress.com/RSS 
+- http://your-username.wordpress.com/feed(x)
+- http://your-username.wordpress.com/RSSfeeds
 
 Q9. Which type of media files can be uploaded to WordPress.com?
-a) .wma (x)
-b) .jpg (x)
-c) .odt
-d) .doc
+
+- .wma (x)
+- .jpg (x)
+- .odt
+- .doc
 
 Q10. You have forgotten your admin password for the WordPress.org version 2.5.1. Which of the following methods can be used to recover/reset the password?
-a) By using the Lost password link on the login page (x)
-b) By using the MySQL Command Line
-c) By entering the WordPress API key
-d) By using the emergency password reset script
-e) By editing the wp-config.php file
+
+- By using the Lost password link on the login page (x)
+- By using the MySQL Command Line
+- By entering the WordPress API key
+- By using the emergency password reset script
+- By editing the wp-config.php file
 
 Q11. Which of the following statements is correct with regard to adding the shopping feature in your WordPress.org version 2.5.1 site?
-a) The shopping feature can be added via widget.
-b) The shopping feature can’t be embedded to the site.
-c) WordPress charges to enable the shopping feature.
-d) The shopping feature can be added by plugging-in for shopping.
-e) The shopping feature can be added by adding a theme for shopping. (x)
+
+- The shopping feature can be added via widget.
+- The shopping feature can’t be embedded to the site.
+- WordPress charges to enable the shopping feature.
+- The shopping feature can be added by plugging-in for shopping.
+- The shopping feature can be added by adding a theme for shopping. (x)
 
 Q12. You want to Podcast an mp3 file named ‘abc.mp3′ on your WordPress.org version 2.5.1 site, having URL ‘http://www.xyz.com’, through post. What will be the URL to link the audio file?
-a) Podcast File
-b) Podcast File
-c) Podcast File (x)
-d) Podcast File
+
+- Podcast File
+- Podcast File
+- Podcast File (x)
+- Podcast File
 
 Q13. You want to change the WordPress.org version 2.5.1 language to thai(th). What change has to be made in the wp-config.php file?
-a) define (‘WPLANG’, ”);
-b) define (‘WPLANG’, ‘th’);(x)
-c) define (‘WPLANG’, ‘th’,thai’);
-d) define (‘WPLANG’, ‘thai’,th’);
-e) There is no feature to change the language of WordPress
+
+- define (‘WPLANG’, ”);
+- define (‘WPLANG’, ‘th’);(x)
+- define (‘WPLANG’, ‘th’,thai’);
+- define (‘WPLANG’, ‘thai’,th’);
+- There is no feature to change the language of WordPress
 
 Q14. What is Domain Mapping in the case of WordPress.com?
-a) It is a method by which you can increase the domain reach of your free WordPress.com blog by a paid upgrade.
-b) It is a method by which you can apply Domain Maps of your WordPress blog by a paid upgrade.
-c) It is a method by which you can replace the ‘WordPress.com’ name with your own domain name via paid upgrade (x).
-d) None of these
+
+- It is a method by which you can increase the domain reach of your free WordPress.com blog by a paid upgrade.
+- It is a method by which you can apply Domain Maps of your WordPress blog by a paid upgrade.
+- It is a method by which you can replace the ‘WordPress.com’ name with your own domain name via paid upgrade (x).
+- None of these
 
 Q15. What is the main purpose of the Password Protect feature in the WordPress.org version 2.5.1?
-a) To protect the style sheet from editing
-b) To protect moderation of posts
-c) To protect insertion of posts
-d) To protect posts from being displayed to users who are not registered (x)
+
+- To protect the style sheet from editing
+- To protect moderation of posts
+- To protect insertion of posts
+- To protect posts from being displayed to users who are not registered (x)
 
 Q16. From which of the following blog sites does WordPress provide the feature to import posts?
-a) Blogger (x)
-b) LiveJournal
-c) Technorati
-d) WordPress
+
+- Blogger (x)
+- LiveJournal
+- Technorati
+- WordPress
 
 Q17. You want to browse your WordPress.com blog on your mobile or PDA. Which of the following URLs will you use?
-a) mobile.wordpress.com
-b) m.wordpress.com (x)
-c) mobileweb..wordpress.com
-d) mobile.web.wordpress.com
-e) None of these.
+
+- mobile.wordpress.com
+- m.wordpress.com (x)
+- mobileweb..wordpress.com
+- mobile.web.wordpress.com
+- None of these.
 
 Q18. Which of the following are the differences between WordPress.org and WordPress.com?
-a) In WordPress.org, you can upload themes and plugins but in WordPress.com, you cannot upload themes and plugins. (x)
-b) In WordPress.com, you can upload themes and plugins but in WordPress.org, you cannot upload themes and plugins.
-c) In WordPress.org, you can alter the code file of the Theme Template but in WordPress.com, you can alter the CSS code file only.
-d) In WordPress.org, you have to manually upgrade the software and take backups whereas in WordPress.com, automatic software upgrades and backups are available.
+
+- In WordPress.org, you can upload themes and plugins but in WordPress.com, you cannot upload themes and plugins. (x)
+- In WordPress.com, you can upload themes and plugins but in WordPress.org, you cannot upload themes and plugins.
+- In WordPress.org, you can alter the code file of the Theme Template but in WordPress.com, you can alter the CSS code file only.
+- In WordPress.org, you have to manually upgrade the software and take backups whereas in WordPress.com, automatic software upgrades and backups are available.
 
 Q19. In the WordPress.org version 2.5.1, a private post created by the administrator is also visible to the?
-a) contributor
-b) author of that post
-c) subscriber 
-d) editor(x)
+
+- contributor
+- author of that post
+- subscriber 
+- editor(x)
 
 Q20. In WordPress, you can also set the publication date of the post to?
-a) A future date
-b) A past date
-c) Both a and b
-d) You cannot change the publication date (x)
+
+- A future date
+- A past date
+- Both a and b
+- You cannot change the publication date (x)
 
 Q21. If the WordPress.org version 2.5.1 directory is placed in the root directory, which path is to be visited to install the WordPress.org version 2.5.1 script in the website http://www.example.com?
-a) http://www.example.com/wp-admin/install.php(x)
-b) http://www.example.com/wp-admin/config.php
-c) http://www.example.com/wp-admin/home.php
-d) http://www.example.com/root/wp-admin/install.php
-e) http://www.example.com/root/wp-admin/config.php
+
+- http://www.example.com/wp-admin/install.php(x)
+- http://www.example.com/wp-admin/config.php
+- http://www.example.com/wp-admin/home.php
+- http://www.example.com/root/wp-admin/install.php
+- http://www.example.com/root/wp-admin/config.php
 
 Q22. This question is based upon the figure shown below
 Refer to the given image What does A signify?
-a) It signifies that the given number of comments has been approved by the administrator.
-b) It signifies that the given number of comments has been posted by the user.
-c) It shows the total number of comments posted in a given day.
-d) It signifies that the given number of comments is pending for the administrator’s approval. (x)
+
+- It signifies that the given number of comments has been approved by the administrator.
+- It signifies that the given number of comments has been posted by the user.
+- It shows the total number of comments posted in a given day.
+- It signifies that the given number of comments is pending for the administrator’s approval. (x)
 
 Q23. Which of the following features is not available in the basic WordPress.org version 2.5.1 for posts?
-a) Tagging
-b) RSS Feed
-c) Rating (x)
-d) Commenting
+
+- Tagging
+- RSS Feed
+- Rating (x)
+- Commenting
 
 Q24. What is the default path for the theme files in the WordPress.org version 2.5.1 deployment kit?
-a) /wp_content/themes
-b) /themes
-c) /wordpress/themes
-d) /wp-content/themes (x)
+
+- /wp_content/themes
+- /themes
+- /wordpress/themes
+- /wp-content/themes (x)
 
 Q25. What is the function of widgets in WordPress?
-a) It is used to display the site in proper design.
-b) It is used to create a sitemap of the site.
-c) It is used to add additional components to the site. (x)
-d) It helps in easy and fast searching.
+
+- It is used to display the site in proper design.
+- It is used to create a sitemap of the site.
+- It is used to add additional components to the site. (x)
+- It helps in easy and fast searching.
 
 Q26. Which of the following database systems is supported by the WordPress.org version 2.5.1?
-a) Microsoft sql
-b) MySql (x)
-c) Microsoft access
-d) All of the above
+
+- Microsoft sql
+- MySql (x)
+- Microsoft access
+- All of the above
 
 Q27. You have created a site using WordPress.org version 2.5.1 and given the blog the title ‘Fitness’. After the creation, you want to change the blog title. What will be the best solution?
-a) The blog title can’t be changed.
-b) Reinstall the WordPress.org.
-c) Use the admin section to change the blog title.(x)
-d) Upgrade the WordPress.org.
+
+- The blog title can’t be changed.
+- Reinstall the WordPress.org.
+- Use the admin section to change the blog title.(x)
+- Upgrade the WordPress.org.
 
 Q28. When are Actions triggered in the WordPress.org version 2.5.1?
-a) When a post is published(x)
-b) When a theme is changed(x)
-c) When a page is displayed(x)
-d) When a new user registers (x)
-e) When a month changes
+
+- When a post is published(x)
+- When a theme is changed(x)
+- When a page is displayed(x)
+- When a new user registers (x)
+- When a month changes
 
 Q29. Under the Admin Manage Section of the WordPress.org version 2.5.1, you can _____.
-a) manage User Roles (x)
-b) manage Topic Categories and Tags(x)
-c) manage Theme Templates(x)
-d) manage Published and Unpublished post(x)
+
+- manage User Roles (x)
+- manage Topic Categories and Tags(x)
+- manage Theme Templates(x)
+- manage Published and Unpublished post(x)
 
 Q30. What is the amount of free space available in a free WordPress.com blog, for storing uploaded files and images?
-a) 2000 Megabytes
-b) 3000 Megabytes (x)
-c) 1000 Megabytes
-d) Unlimited storage
+
+- 2000 Megabytes
+- 3000 Megabytes (x)
+- 1000 Megabytes
+- Unlimited storage
 
 Q31. Which of the following User Roles are defined in the WordPress.org version 2.5.1?
-a) Subscriber
-b) Administrator
-c) Editor
-d) Moderator (x)
-e) Contributor
+
+- Subscriber
+- Administrator
+- Editor
+- Moderator (x)
+- Contributor
 
 Q32. Which of the following statements are correct with reference to the Permalinks Structure?
-a) Structure of Permalinks can be changed by using the admin section. (x)
-b) Structure of Permalinks can’t be changed.
-c) Structure of Permalinks can be changed programmatically.
-d) Structure of Permalinks can’t be changed programmatically.
+
+- Structure of Permalinks can be changed by using the admin section. (x)
+- Structure of Permalinks can’t be changed.
+- Structure of Permalinks can be changed programmatically.
+- Structure of Permalinks can’t be changed programmatically.
 
 Q33. Which of the following constitutes ‘Permalinks’ structures in the WordPress.org version 2.5.1?
-a) Day and name
-b) Month and name
-c) Numeric (x)
-d) Alphanumeric
-e) Custom Structure (x)
+
+- Day and name
+- Month and name
+- Numeric (x)
+- Alphanumeric
+- Custom Structure (x)
 
 Q34. From which section in the WordPress Admin can you add a calendar to your WordPress site?
-a) Themes section
-b) Manage section
-c) Plugin section (x)
-d) Widgets section
-e) None of the above
+
+- Themes section
+- Manage section
+- Plugin section (x)
+- Widgets section
+- None of the above
 
 Q35. What is the function of Blog Stats in WordPress.com?
-a) It provides the total number of page views of the blog.
-b) It provides the list of the links (referral URLs) from which the people have visited your blog.
-c) It provides the list of posts which have received the most traffic.(x)
-d) It provides the ranking of the posts in terms of page views.
+
+- It provides the total number of page views of the blog.
+- It provides the list of the links (referral URLs) from which the people have visited your blog.
+- It provides the list of posts which have received the most traffic.(x)
+- It provides the ranking of the posts in terms of page views.
 
 Q36. How can you “hook” a new function into the WordPress.org version 2.5.1?
-a) add_action (‘hook_name’, ‘your_function_name’, [priority], [accepted_args]); (x)
-b) add_action (‘your_function_name’,’hook_name’,[priority],[accepted_args]);
-c) New functions can’t be hooked
-d) None of the above
+
+- add_action (‘hook_name’, ‘your_function_name’, [priority], [accepted_args]); (x)
+- add_action (‘your_function_name’,’hook_name’,[priority],[accepted_args]);
+- New functions can’t be hooked
+- None of the above
 
 Q37. You want to show the number of spam comments that have been caught by the ‘Akismet’? Which of the following code is used to display the statistics in the WordPress.org version 2.5.1?
-a)  <?php akismet_submit_spam_comment (); ?>
-b)  <?php akismet_spam_count (); ?>
-c)  <?php akismet_spam_totals(); ?>
-d)  <?php akismet_counter(); ?> (x)
+
+-  <?php akismet_submit_spam_comment (); ?>
+-  <?php akismet_spam_count (); ?>
+-  <?php akismet_spam_totals(); ?>
+-  <?php akismet_counter(); ?> (x)
 
 Q38. If you want to upgrade your site http://www.example.com from the older WordPress.org version to a newer one, which URL will have to be used?
-a) http://www.wordpress.org/wp-admin/upgrade.php 
-b) http://www.wordpress.com/wp-admin/upgrade.php
-c) http://www.example.com/wp-admin/install.php
-d) http://www.example.com/wp-admin/upgrade.php (x)
-e) http://www.example.com/wp-admin/update.php
+
+- http://www.wordpress.org/wp-admin/upgrade.php 
+- http://www.wordpress.com/wp-admin/upgrade.php
+- http://www.example.com/wp-admin/install.php
+- http://www.example.com/wp-admin/upgrade.php (x)
+- http://www.example.com/wp-admin/update.php
 
 Q39. In which file do you specify the database name in the WordPress.org version 2.5.1?
-a) wp-config-sample.php
-b) wp-config.php (x)
-c) wp-index.php
-d) wp-index-sample.php
-e) wp-settings.php
+
+- wp-config-sample.php
+- wp-config.php (x)
+- wp-index.php
+- wp-index-sample.php
+- wp-settings.php
 
 Q40. What is the main functionality of Akismet plug-in?
-a) It is used for spell check.
-b)It helps in spam control. (x)
-c)It creates themes.
-d)It is used for generating automated posts.
+
+- It is used for spell check.
+- t helps in spam control. (x)
+- It creates themes.
+- It is used for generating automated posts.
 
 Q41. What is the purpose of the ‘Meta’ widget in WordPress?
-a) To show Meta-Tag information about the website (x)
-b) To show the ‘Log In’ and ‘Logout’ menus
-c)To show the ‘Admin’ page link
-d) To handle RSS Feeds
+
+- To show Meta-Tag information about the website (x)
+- To show the ‘Log In’ and ‘Logout’ menus
+- To show the ‘Admin’ page link
+- To handle RSS Feeds
 
 Q42. What are OpenIDs in the case of WordPress.com?
-a) These are free ID’s given by WordPress as open invitations.
-b) These are IDs given for free login to WordPress.
-c) These are registered users blog names which can be used to login to different sites.(x)
-d) None of these
+
+- These are free ID’s given by WordPress as open invitations.
+- These are IDs given for free login to WordPress.
+- These are registered users blog names which can be used to login to different sites.(x)
+- None of these
 
 Q43. What is Blogroll in WordPress?
-a) It is the categorization of blogs according to tags.
-b) It is a collection of links to various blogs or news sites.(x)
-c) It archives the blogs according to the date of posting.
-d) It displays the long blogs using paging to avoid scrolling.
-e) None of these
+
+- It is the categorization of blogs according to tags.
+- It is a collection of links to various blogs or news sites.(x)
+- It archives the blogs according to the date of posting.
+- It displays the long blogs using paging to avoid scrolling.
+- None of these
 
 Q44. What is the difference between include_once and require_once with regard to handling failure?
-a) include_once just produces a warning and require_once produces a fatal error (x)
-b) include_once produces a fatal error and require_once just produces a warning include_once and require_once cannot handle failure
-c) None of above
 
-Q45. Where can Google Adsensebe integrated into a WordPress blog?
-a) Only in the sidebar.
-b) Only in the header 
-c) Anywhere.(x)
-d)Only in the content.
+- include_once just produces a warning and require_once produces a fatal error (x)
+- include_once produces a fatal error and require_once just produces a warning include_once and require_once cannot handle failure
+- None of above-Q45. Where can Google Adsensebe integrated into a WordPress blog?
+
+- Only in the sidebar.
+- Only in the header 
+- Anywhere.(x)
+- Only in the content.
 
 
 [http://onlinetestbd.blogspot.in/](http://onlinetestbd.blogspot.in/)
