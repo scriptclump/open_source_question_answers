@@ -1,6 +1,6 @@
 **What is WordPress?**
 
-WordPress is a best Open Source CMS which allows it to be used free of cost.  You can use it on any kind of personal or commercial website without have to pay a single penny for it. It is built on PHP/MySQL (which is again Open Sourc- and licensed under GPL.
+WordPress is a best Open Source CMS which allows it to be used free of cost.  You can use it on any kind of personal or commercial website without have to pay a single penny for it. It is built on PHP/MySQL (which is again Open Source) and licensed under GPL.
 
 **How safe is website on WordPress?**
 
@@ -200,7 +200,7 @@ This will add a new menu item labelled “Custom Menu” to the side menu of the
 
 With default settings and roles, admins can view it and all lower roles can’t. In fact this menu item will only be visible to users who have the privilege to “manage options” or change settings from WordPress admin dashboard.
 
-The admin custom page will be made available at this (relativ- URL: “?page=custom-menu-slug”.
+The admin custom page will be made available at this (relative) URL: “?page=custom-menu-slug”.
 
 **How would you change all the occurrences of “Hello” into “Good Morning” in post/page contents, when viewed before 11AM?**
 
@@ -617,7 +617,7 @@ Add following code in htaccess file
 
 **How to display custom field in wordpress?**
 
-echo get_post_meta($post->ID, 'keyName', tru-;
+echo get_post_meta($post->ID, 'keyName', true;
 
 **How to run database Query in WordPress?**
 
@@ -680,8 +680,8 @@ Following are main files which used in wordpress
 **How to create a folder if it doesn't already exist in Wordpress?**
 
 $pathname='path/to/directory';
-	if (!file_exists($pathnam-) {
-	    mkdir($pathname, 0777, tru-;
+	if (!file_exists($pathname) {
+	    mkdir($pathname, 0777, true;
 	}
 	In mkdir have following 3 parameters.
 	Pathname: path where you want to create the folder
@@ -881,7 +881,7 @@ Wordpress.com is relatively more secure than wordpress.org because they limit th
 **How can you call a constructor for a parent class?**
 
 You can call a constructor for a parent class by this way:
-	Parents:: constructor($valu-
+	Parents:: constructor($value)
 
 **In what cases WordPress is not suitable for the website?**
 
@@ -934,7 +934,7 @@ Q: What is the procedure to call a constructor for a parent class?
 
 Ans: The command to call a constructor for a parent class is
 
-parent::constructor($valu-
+parent::constructor($value)
 
 Q: Can you answer that whether objects are passed by value or by reference?
 
