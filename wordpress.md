@@ -374,7 +374,7 @@ WordPress was used by more than 23.3% of the top 10 million websites as of Janua
 
 Here are some of the features that we think that you’ll love.
 
- - Simplicity
+- Simplicity
 - Flexibility
 - Publish with Ease
 - Publishing Tools
@@ -422,15 +422,15 @@ Let’s take a look at why you should use WordPress.
 WordPress can be used in many different ways. It is open to possibilities.
 
 You can use WordPress as the following:
-	- Arcade
-	- Blog
-	- Content Management System (CMS)
-	- Gallery
-	- Portfolio
-	- Rating Website
-	- Shopping Store
-	- Video Collection Site
-	- Membership Site
+- Arcade
+- Blog
+- Content Management System (CMS)
+- Gallery
+- Portfolio
+- Rating Website
+- Shopping Store
+- Video Collection Site
+- Membership Site
 
 **What is plugin in WordPress?**
 
@@ -440,15 +440,16 @@ Plugins are ways to extend and add to the functionality that already exists in W
 
 Here i am going to share some useful plugins that really help you so much for managing and improving performance as well security of  WordPress.
 
- https://wordpress.org/plugins/wordpress-seo/ (Best SEO Plugin)
-https://wordpress.org/plugins/google-sitemap-generator/ (sitemap)
-	https://wordpress.org/plugins/w3-total-cache/ (caching)
-	https://wordpress.org/plugins/wp-smushit/ (optimizing image files)
-	https://wordpress.org/plugins/wp-optimize/ (Simple but effective plugin allows you to extensively clean up your WordPress database and optimize it without doing manual queries: )
+- https://wordpress.org/plugins/wordpress-seo/ (Best SEO Plugin)
+- https://wordpress.org/plugins/google-sitemap-generator/ (sitemap)
+- https://wordpress.org/plugins/w3-total-cache/ (caching)
+- https://wordpress.org/plugins/wp-smushit/ (optimizing image files)
+- https://wordpress.org/plugins/wp-optimize/ (Simple but effective plugin allows you to extensively clean up your WordPress database and optimize it without doing manual queries: )
 
-	Security:
-	https://wordpress.org/plugins/wordfence/
-	https://wordpress.org/plugins/login-lockdown/
+Security:
+
+- https://wordpress.org/plugins/wordfence/
+- https://wordpress.org/plugins/login-lockdown/
 
 **Current version of WordPress?**
 
@@ -626,22 +627,22 @@ $wpdb->query("select * from $wpdb->posts   where ID>10 ");
 **What types of hooks in wordpress is used?**
 
 1)Following are Actions hooks:.
-		has_action()
-		add_action()
-		do_action()
-		do_action_ref_array()
-		did_action()
-		remove_action()
-		remove_all_actions()
+- has_action()
+- add_action()
+- do_action()
+- do_action_ref_array()
+- did_action()
+- remove_action()
+- remove_all_actions()
 
-	2)Following are Filters hooks .
-		has_filter()
-		add_filter()
-		apply_filters()
-		apply_filters_ref_array()
-		current_filter()
-		remove_filter()
-		remove_all_filters()
+2)Following are Filters hooks .
+- has_filter()
+- add_filter()
+- apply_filters()
+- apply_filters_ref_array()
+- current_filter()
+- remove_filter()
+- remove_all_filters()
 
 **How can you backup your WordPress content?**
 
@@ -649,29 +650,29 @@ WordPress admin -> Tools -> Import
 
 **List most commonly functions used in wordpress?**
 
-wp_nav_menu() :- Displays a navigation menu.
-	is_page() :- to check if this is page OR NOT, will return boolean value.
-	get_the_excerpt() :- Copy the excerpt of the post into a specified variable.
-	in_category() :- Check if the specified post is assigned to any of the specified categories OR not.
-	the_title():- Displays the title of the post in website.
-	the_content():- Displays the contents of the post in website.
+- wp_nav_menu() :- Displays a navigation menu.
+- is_page() :- to check if this is page OR NOT, will return boolean value.
+- get_the_excerpt() :- Copy the excerpt of the post into a specified variable.
+- in_category() :- Check if the specified post is assigned to any of the specified categories OR not.
+- the_title():- Displays the title of the post in website.
+- the_content():- Displays the contents of the post in website.
 
 **What are the file structure in wordpress.**
 
 Following are main files which used in wordpress
-	index.php :- for index page.
-	search.php :- For display the search result page.
-	single.php :- for single post page.
-	page.php :- display the static pages.
-	category.php :- Display the category page.
-	tag.php :- For display the tags page.
-	author.php :- For display author page.
-	taxonomy.php :- For display the taxonomy archive.
-	attachment.php :- For managing the single attachments page.
-	header.php :- For managing top part of page.
-	footer.php :- For manage bottom part of pages.
-	archive.php :- For archive page display.
-	404.php :- For display 404 error page.
+- index.php :- for index page.
+- search.php :- For display the search result page.
+- single.php :- for single post page.
+- page.php :- display the static pages.
+- category.php :- Display the category page.
+- tag.php :- For display the tags page.
+- author.php :- For display author page.
+- taxonomy.php :- For display the taxonomy archive.
+- attachment.php :- For managing the single attachments page.
+- header.php :- For managing top part of page.
+- footer.php :- For manage bottom part of pages.
+- archive.php :- For archive page display.
+- 404.php :- For display 404 error page.
 
 --------
 
@@ -679,14 +680,15 @@ Following are main files which used in wordpress
 
 **How to create a folder if it doesn't already exist in Wordpress?**
 
-$pathname='path/to/directory';
-	if (!file_exists($pathname) {
-	    mkdir($pathname, 0777, true;
-	}
-	In mkdir have following 3 parameters.
-	Pathname: path where you want to create the folder
-	Folder Permission: Permission of folder.
-	Recursive: true for all sub directory, false for current directory only.
+    $pathname='path/to/directory';
+    if (!file_exists($pathname) {
+        mkdir($pathname, 0777, true;
+    }
+
+In mkdir have following 3 parameters.
+- Pathname: path where you want to create the folder
+- Folder Permission: Permission of folder.
+- Recursive: true for all sub directory, false for current directory only.
 
 **What is difference between mode value 0777 and 777 in mkdir/chmod function?**
 
@@ -706,13 +708,14 @@ You should add "Google analytics code" in Every page, so that you can get all pa
 **How to get the current page name in WordPress?**
 
 You can get the page name from below of two?
-	$slug = basename(get_permalink());
-	OR
-	$pagename = get_query_var('pagename');  
+
+    $slug = basename(get_permalink());
+    OR
+    $pagename = get_query_var('pagename');
 
 **How do I ge the version of wordpress?**
 
-echo bloginfo('version');
+    echo bloginfo('version');
 	Above is get from below file.
 	You can check in wp-includes/version.php 
 	$wp_version = '4.1.2';
@@ -726,11 +729,11 @@ Open the wp-config.php file and WP_DEBUG set the false.
 **What is use of __() and _e() functions in wordpress?**
 
 These are function used when you website multilingual.
-	each of this function have two parameter.
-	1st parameter: String which you want to convert from one language to another.
-	2nd parameter: domain name.
-	 $translatedText = __( 'TEXT_FOR_TRANSLATION', 'textdomain' ); //This will return the translated text
-	 _e( 'TEXT_FOR_TRANSLATION', 'textdomain' ); //This will print the translated text
+    each of this function have two parameter.
+    1st parameter: String which you want to convert from one language to another.
+    2nd parameter: domain name.
+        $translatedText = __( 'TEXT_FOR_TRANSLATION', 'textdomain' ); //This will return the translated text
+        _e( 'TEXT_FOR_TRANSLATION', 'textdomain' ); //This will print the translated text
 
 **How to get wordpress post featured image URL?**
 
@@ -756,7 +759,7 @@ Open functions.php in your current active theme.
 
 **How do I get current taxonomy "term id" on wordpress?**
 
-$obj = get_queried_object();
+    $obj = get_queried_object();
 	echo $obj->term_id;
 
 **How do I add Syntax Highlighting on wordpress.com?**
@@ -768,7 +771,7 @@ As you can't install plugin for syntax high lighting in wordpress.com, you can u
 
 **How to check admin login or Not?**
 
-if(is_admin()) {
+    if(is_admin()) {
 	/** Write your code here */
 
 	/** Write your code here */
