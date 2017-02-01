@@ -171,7 +171,7 @@ It is possible to use the dedicated function, ctype_alnum to check whether it is
 
 If we want to check whether a variable has a value or not, it is possible to use the empty() function.
 
-39) What does the unlink() function means?
+**What does the unlink() function means?**
 
 The unlink() function is dedicated for file system handling. It simply deletes the file given as entry.
 
@@ -483,4 +483,5 @@ Yes, it is possible to share a single instance of Memcache between multiple proj
 When PHP changes you can update Memcached by
 
 •  Clearing the Cache proactively: Clearing the cache when an insert or update is made
+
 •  Resetting the Cache: It is similar to the first method but rather than just deleting the keys and waiting for the next request for the data to refresh the cache, reset the values after the insert or update.
