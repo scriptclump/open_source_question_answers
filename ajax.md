@@ -250,7 +250,7 @@ Ajaxcontroltoolkit.dll is the DLL used for Ajax control tool kit and it can be d
 
 **What role of #&& in querystring?**
 
-#is treated as fragment delimiter to delimit the history state and && precedes is used to check on the information in the query string.
+hashsign is treated as fragment delimiter to delimit the history state and && precedes is used to check on the information in the query string.
 
 **How to control the duration of an Ajax request?**
 
