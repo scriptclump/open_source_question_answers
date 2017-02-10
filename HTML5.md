@@ -55,15 +55,15 @@ A custom data attribute starts with **data-** and would be named based on your r
 - autofocus
 - required
 
-**SGV**
+## SGV
 
 SVG stands for Scalable Vector Graphics and it is a language for describing 2D-graphics and graphical applications in XML and the XML is then rendered by an SVG viewer.
 
-**MathML**
+## MathML
 
 The HTML syntax of HTML5 allows for MathML elements to be used inside a document using ```<math>...</math>``` tags.
 
-**Web Storage**
+## Web Storage
 
 HTML5 introduces the web storage which will overcome the drawbacks of the cookie. Coookie has following drawbacks.
 
@@ -89,3 +89,128 @@ Deleting:
 ```localStorage.remove('key')``` This will remove a particular key
 
 
+## Web SQL
+
+The Web SQL Database API isn't actually part of the HTML5 specification but it is a separate specification which introduces a set of APIs to manipulate client-side databases using SQL.
+
+Following are the core methods of Web SQL.
+
+- openDatabase - Create, use the database
+- transaction - Will allow to commit and rollback
+- executeSql - execute the SQL query
+
+Complete example:
+
+```
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <script type="text/javascript">
+		 // Creates, use database
+         var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024);
+         var msg;
+
+		 // Creates table and insert data
+         db.transaction(function (tx) {
+            tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS (id unique, log)');
+            tx.executeSql('INSERT INTO LOGS (id, log) VALUES (1, "foobar")');
+            tx.executeSql('INSERT INTO LOGS (id, log) VALUES (2, "logmsg")');
+            msg = '<p>Log message created and row inserted.</p>';
+            document.querySelector('#status').innerHTML =  msg;
+         });
+
+		 // Selects from database
+         db.transaction(function (tx) {
+            tx.executeSql('SELECT * FROM LOGS', [], function (tx, results) {
+               var len = results.rows.length, i;
+               msg = "<p>Found rows: " + len + "</p>";
+               document.querySelector('#status').innerHTML +=  msg;
+
+               for (i = 0; i < len; i++){
+                  msg = "<p><b>" + results.rows.item(i).log + "</b></p>";
+                  document.querySelector('#status').innerHTML +=  msg;
+               }
+            }, null);
+         });
+      </script>
+   </head>
+   <body>
+      <div id="status" name="status">Status Message</div>
+   </body>
+</html>
+```
+
+
+## Server-Sent Events
+
+HTML5, WHATWG Web Applications 1.0 introduces events which flow from web server to the web browsers and they are called Server-Sent Events (SSE). Using SSE you can push DOM events continously from your web server to the visitor's browser.
+
+The event streaming approach opens a persistent connection to the server, sending data to the client when new information is available, eliminating the need for continuous polling.
+
+**Server Side Script for SSE**
+
+Server side script should send Content-type header and type should be ```text/event-stream``` like this
+
+```
+print "Content-Type: text/event-stream\n\n";
+```
+
+Server side script would send an Event: tag followed by event name. Event name should be terminated by a new line character
+
+```
+print "Event: server-time\n";
+```
+
+Server side script would send event data using Data: tag which would be followed by integer of string value terminated by a new line character.
+
+***Perl Example***
+
+```
+#!/usr/bin/perl
+
+print "Content-Type: text/event-stream\n\n";
+
+while(true){
+   print "Event: server-time\n";
+   $time = localtime();
+   print "Data: $time\n";
+   sleep(5);
+}
+```
+
+***Handle Server-Sent Events example***
+
+```
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <script type="text/javascript">
+         document.getElementsByTagName("eventsource")[0].addEventListener("server-time", eventHandler, false);
+         function eventHandler(event){
+            // Alert time sent by the server
+            document.querySelector('#ticker').innerHTML = event.data;
+         }
+      </script>
+   </head>
+   <body>
+      <div id="sse">
+         <eventsource src="/cgi-bin/ticker.cgi" />
+      </div>
+      <div id="ticker" name="ticker">
+         [TIME]
+      </div>
+   </body>
+</html>
+```
+
+
+
+
+
+
+
+
+
+## Web Sockets
+
+A WebSocket is a standard bidirectional TCP socket between the client and the server. The socket starts out as a HTTP connection and then "Upgrades" to a TCP socket after a HTTP handshake. After the handshake, either side can send data.
