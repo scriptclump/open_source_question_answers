@@ -395,3 +395,131 @@ HTML5 Geolocation API lets you share your location with web sites. The geolocati
    </body>
 </html>
 ```
+
+## Microdata
+
+Coming Soon...
+
+## Drag and Drop
+
+HTML 5 came up with a Drag and Drop (DnD) API that brings native DnD support to the browser making it much easier to code up.
+
+
+***Drag and Drop Events***
+
+- dragenter
+- dragover
+- dragleave
+- drag
+- drop
+- dragend
+
+Drag and drop events accept Event object which has a readonly attribute called dataTransfer. The DataTransfer object holds data about the drag and drop operation.
+
+***DataTransfer attributes***
+
+- dataTransfer.dropEffect ```[ = value ] (none, copy, link, and move.)```
+- dataTransfer.effectAllowed ```[ = value ] (none, copy, copyLink, copyMove, link, linkMove, move, all and uninitialized.)```
+- dataTransfer.types
+- dataTransfer.clearData( [ format ] )
+- dataTransfer.setData(format, data)
+- data = dataTransfer.getData(format)
+- dataTransfer.files
+- dataTransfer.setDragImage(element, x, y)
+- dataTransfer.addElement(element)
+
+***Example***
+
+```
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <style type="text/css">
+         #boxA, #boxB {
+            float:left;padding:10px;margin:10px;-moz-user-select:none;
+         }
+         #boxA { background-color: #6633FF; width:75px; height:75px;  }
+         #boxB { background-color: #FF6699; width:150px; height:150px; }
+      </style>
+      <script type="text/javascript">
+         function dragStart(ev) {
+            ev.dataTransfer.effectAllowed='move';
+            ev.dataTransfer.setData("Text", ev.target.getAttribute('id'));
+            ev.dataTransfer.setDragImage(ev.target,0,0);
+            return true;
+         }
+         function dragEnter(ev) {
+            event.preventDefault();
+            return true;
+         }
+         function dragOver(ev) {
+            return false;
+         }
+         function dragDrop(ev) {
+            var src = ev.dataTransfer.getData("Text");
+            ev.target.appendChild(document.getElementById(src));
+            ev.stopPropagation();
+            return false;
+         }
+      </script>
+   </head>
+   <body>
+      <center>
+         <h2>Drag and drop HTML5 demo</h2>
+         <div>Try to move the purple box into the pink box.</div>
+         <div id="boxA" draggable="true"
+            ondragstart="return dragStart(ev)">
+            <p>Drag Me</p>
+         </div>
+         <div id="boxB" ondragenter="return dragEnter(ev)"
+            ondrop="return dragDrop(ev)"
+            ondragover="return dragOver(ev)">Dustbin
+         </div>
+      </center>
+   </body>
+</html>
+```
+
+## Web Workers
+
+JavaScript was designed to run in a single-threaded environment, meaning multiple scripts cannot run at the same time. Web Workers are background scripts that are not interrupted by scripts that respond to clicks or other user interactions, and allows long tasks to be executed without yielding to keep the page responsive.
+
+Web Worker it cannot access the web page's window object (window.document), which means that Web Workers don't have direct access to the web page and the DOM API. Although Web Workers cannot block the browser UI, they can still consume CPU cycles and make the system less responsive.
+
+
+***Web Workers methods***
+
+- postMessage() = communication between web worker and its parent page is done using the postMessage()
+- onmessage() = Message passed by Web Worker is accessed using onmessage event in the main page.
+- terminate() = Web Workers don't stop by themselves but the page that started them can stop them by calling terminate() method.
+
+***Example***
+
+```
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>Big for loop</title>
+      <script>
+         if (Modernizr.webworkers) {
+            var worker = new Worker('bigLoop.js');
+            worker.onmessage = function (event) {
+               alert("Completed " + event.data + "iterations" );
+            };
+            worker.onerror = function (event) {
+               console.log(event.message, event);
+            };
+         } else{
+            alert("Sorry!! you do not have web workers support." );
+         }
+
+         function sayHello(){
+               alert("Hello sir...." );
+         }
+      </script>
+   </head>
+   <body>
+      <input type="button" onclick="sayHello();" value="Say Hello"/>
+   </body>
+</html>
+```
