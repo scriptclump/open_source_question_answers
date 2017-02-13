@@ -204,13 +204,194 @@ while(true){
 ```
 
 
-
-
-
-
-
-
-
 ## Web Sockets
 
 A WebSocket is a standard bidirectional TCP socket between the client and the server. The socket starts out as a HTTP connection and then "Upgrades" to a TCP socket after a HTTP handshake. After the handshake, either side can send data.
+
+***WebSocket Attributes***
+
+Socket.readyState readonly attribute readyState represents the state of the connection.
+
+- 0 = connection has not yet been established
+- 1 = connection is established and communication is possible
+- 2 = connection is going through the closing handshake
+- 3 = connection has been closed or could not be opened.
+
+Socket.readyState
+
+The readonly attribute bufferedAmount represents the number of bytes of UTF-8 text that have been queued using send() method.
+
+***WebSocket Events***
+
+- Socket.onopen = occurs when socket connection is established.
+- Socket.onmessage = occurs when client receives data from server.
+- Socket.onerror = occurs when there is any error in communication.
+- Socket.onclose = occurs when connection is closed.
+
+***WebSocket Methods***
+
+- Socket.send() = send(data) method transmits data using the connection.
+- Socket.close() = The close() method would be used to terminate any existing connection.
+
+***WebSocket Example***
+
+```
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <script type="text/javascript">
+         function WebSocketTest(){
+            if ("WebSocket" in window){
+               alert("WebSocket is supported by your Browser!");
+               // Let us open a web socket
+               var ws = new WebSocket("ws://localhost:9998/echo");
+               ws.onopen = function(){
+                  // Web Socket is connected, send data using send()
+                  ws.send("Message to send");
+                  alert("Message is sent...");
+               };
+
+               ws.onmessage = function (evt){
+                  var received_msg = evt.data;
+                  alert("Message is received...");
+               };
+
+               ws.onclose = function(){
+                  // websocket is closed.
+                  alert("Connection is closed...");
+               };
+            }else{
+               // The browser doesn't support WebSocket
+               alert("WebSocket NOT supported by your Browser!");
+            }
+         }
+      </script>
+   </head>
+   <body>
+      <div id="sse">
+         <a href="javascript:WebSocketTest()">Run WebSocket</a>
+      </div>
+   </body>
+</html>
+```
+
+## Canvas
+
+```<canvas>``` gives you an easy and powerful way to draw graphics using JavaScript.
+
+***Canvas example***
+
+```
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <style>
+         #mycanvas{border:1px solid red;}
+      </style>
+      <script type="text/javascript">
+         var canvas  = document.getElementById("mycanvas");
+         if (canvas.getContext){
+            var ctx = canvas.getContext('2d');
+            // drawing code here
+         }else {
+            // canvas-unsupported code here
+         }
+      </script>
+   </head>
+   <body>
+      <canvas id="mycanvas" width="100" height="100"></canvas>
+   </body>
+</html>
+```
+
+## Audio and  Video
+
+The HTML5 ```<audio>``` and ```<video>``` tags make it simple to add media to a website without need for flash.
+
+***Example***
+
+```
+<!DOCTYPE HTML>
+<html>
+   <body>
+      <video  width="300" height="200" controls autoplay>
+         <source src="/html5/foo.ogg" type="video/ogg" />
+         <source src="/html5/foo.mp4" type="video/mp4" />
+         Your browser does not support the video element.
+      </video><br />
+      <audio controls autoplay>
+         <source src="/html5/audio.ogg" type="audio/ogg" />
+         <source src="/html5/audio.wav" type="audio/wav" />
+         Your browser does not support the audio element.
+      </audio>
+   </body>
+</html>
+```
+
+## Geolocation
+
+HTML5 Geolocation API lets you share your location with web sites. The geolocation APIs work with a new property of the global navigator object.
+
+***Geolocation Methods***
+
+- getCurrentPosition() = retrieves the current geographic location of the user
+- watchPosition() = retrieves periodic updates about the current geographic location of the device.
+- clearWatch() = cancels an ongoing watchPosition call.
+
+
+***Location properties***
+
+- coords
+- coords.latitude
+- coords.longitude
+- coords.altitude
+- coords.accuracy
+- coords.altitudeAccuracy
+- coords.heading
+- coords.speed
+- timestamp
+
+***Handling Errors***
+
+- 0  UNKNOWN_ERROR = The method failed to retrieve the location of the device due to an unknown error.
+- 1  PERMISSION_DENIED = The method failed to retrieve the location of the device because the application does not have permission to use the Location Service.
+- 2  POSITION_UNAVAILABLE = The location of the device could not be determined.
+- 3  TIMEOUT  = The method was unable to retrieve the location information within the specified maximum timeout interval.
+
+***Example***
+
+```
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <script type="text/javascript">
+         function showLocation(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+            alert("Latitude : " + latitude + " Longitude: " + longitude);
+         }
+         function errorHandler(err) {
+            if(err.code == 1) {
+               alert("Error: Access is denied!");
+            } else if( err.code == 2) {
+               alert("Error: Position is unavailable!");
+            }
+         }
+         function getLocation(){
+            if(navigator.geolocation){
+               // timeout at 60000 milliseconds (60 seconds)
+               var options = {timeout:60000};
+               navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
+            }else{
+               alert("Sorry, browser does not support geolocation!");
+            }
+         }
+      </script>
+   </head>
+   <body>
+      <form>
+         <input type="button" onclick="getLocation();" value="Get Location"/>
+      </form>
+   </body>
+</html>
+```
