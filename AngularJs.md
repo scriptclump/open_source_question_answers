@@ -133,3 +133,106 @@ var mainApp = angular.module("mainApp", []);
 mainApp.controller("basantController", function($scope) {
 });
 ```
+
+## Modules
+
+AngularJS enriches form filling and validatio and it use $dirty and $invalid flags to do the validations in seemless way.
+
+***Validate data***
+
+**$dirty** : states that value has been changed.
+**$invalid** : states that value entered is invalid.
+**$error** : states the exact error.
+
+## Includes
+
+HTML does not support embedding html pages within html page. AngularJS, we can embed HTML pages within a HTML page using ng-include directive.
+
+```
+<div ng-app = "mainApp" ng-controller="studentController">
+   <div ng-include = "'/angularjs/src/include/main.htm'"></div>
+   <div ng-include = "'/angularjs/src/include/subjects.htm'"></div>
+</div>
+```
+
+## AngularJS - Ajax
+
+AngularJS provides $https: control which works as a service to read data from the server. AngularJS needs data in JSON format. Once the data is ready, $https: can be used to get the data from server in the following manner.
+
+```
+function studentController($scope,$https:) {
+var url = "data.txt";
+
+   $https:.get(url).success( function(response) {
+      $scope.students = response;
+   });
+}
+```
+
+## Views
+
+AngularJS supports Single Page Application via multiple views on a single page. To do this AngularJS has provided ng-view and ng-template directives and $routeProvider services.
+
+***ng-view***
+
+ng-view tag simply creates a place holder where a corresponding view (html or ng-template view) can be placed based on the configuration.
+
+***ng-template***
+
+ng-template directive is used to create an html view using script tag. It contains "id" attribute which is used by $routeProvider to map a view with a controller.
+
+***$routeProvider***
+
+$routeProvider is the key service which set the configuration of urls, map them with the corresponding html page or ng-template, and attach a controller with the same.
+
+```
+<html>
+   <head>
+      <title>Angular JS Views</title>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
+   </head>
+   <body>
+      <h2>AngularJS Sample Application</h2>
+      <div ng-app = "mainApp">
+         <p><a href = "#addStudent">Add Student</a></p>
+         <p><a href = "#viewStudents">View Students</a></p>
+         <div ng-view></div>
+         <script type = "text/ng-template" id = "addStudent.htm">
+            <h2> Add Student </h2>
+            {{message}}
+         </script>
+         <script type = "text/ng-template" id = "viewStudents.htm">
+            <h2> View Students </h2>
+            {{message}}
+         </script>
+      </div>
+      <script>
+         var mainApp = angular.module("mainApp", ['ngRoute']);
+         mainApp.config(['$routeProvider', function($routeProvider) {
+            $routeProvider.
+            when('/addStudent', {
+               templateUrl: 'addStudent.htm',
+               controller: 'AddStudentController'
+            }).
+            when('/viewStudents', {
+               templateUrl: 'viewStudents.htm',
+               controller: 'ViewStudentsController'
+            }).
+            otherwise({
+               redirectTo: '/addStudent'
+            });
+         }]);
+         mainApp.controller('AddStudentController', function($scope) {
+            $scope.message = "This page will be used to display add student form";
+         });
+         mainApp.controller('ViewStudentsController', function($scope) {
+            $scope.message = "This page will be used to display all the students";
+         });
+      </script>
+   </body>
+</html>
+```
+
+## Scopes
+
